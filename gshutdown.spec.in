@@ -1,0 +1,73 @@
+Name: @PACKAGE@
+Version: @VERSION@
+Release: 1
+License: GPL
+Group: Applications/System
+URL: http://gshutdown.tuxfamily.org
+Packager: Asher256 <contact@asher256.com>
+Summary: An advanced shutdown utility
+Summary(fr): Utilitaire pour gérer l'arrêt de votre ordinateur d'une manière avancée
+BuildRoot: %{_tmppath}/%{name}-%{version}-buildroot
+Source: %{name}-%{version}.tar.gz
+BuildRequires: gtk2-devel libglade2-devel
+Requires: gtk2 libglade2
+
+%description
+GShutdown is an advanced shutdown utility which allows you to schedule 
+the shutdown or the restart of your computer. With it, you can simply 
+and quickly choose the turn off time.
+
+The graphical user interface uses Gtk+2.
+
+Features :
+
+* Shutdown, reboot and logout : immediately or scheduled
+* No need to be root
+* Possibility to choose custom commands for the actions
+* Three different ways to schedule the action
+* Systray icon
+* Visuals notifications
+
+%description -l fr
+GShutdown est un utilitaire avancé pour programmer l'arrêt, le redémarrage
+de votre ordinateur, ou la fermeture de la session en cours.
+
+L'interface graphique utilise Gtk+2.
+
+Fonctionnalités :
+
+* Arrêt, redémarrage ou fermeture de la session en cours
+* Programmation du lancement de l'action de trois manières: 
+  À partir de maintenant, à une heure et une date, maintenant.
+* Vous n'êtes pas obligé d'être root pour arrêter ou redémarrer l'ordinateur
+* Il est possible de choisir des commandes personnalisées pour les actions
+* Une icône est ajoutée dans la zone de notification
+* Vous êtes prévenu avec une notification visuelle, avant le déclenchement
+  d'une action
+
+%prep
+%setup -q
+
+%build
+%configure --enable-libnotify=no
+
+%install
+rpm -fr $RPM_BUILD_ROOT
+make DESTDIR=$RPM_BUILD_ROOT install
+
+%clean
+rpm -fr $RPM_BUILD_ROOT
+
+%files
+%defattr(-, root, root, 0755)
+%doc README ChangeLog NEWS AUTHORS COPYING
+%{_bindir}/*
+%{_datadir}/gshutdown/*
+%{_datadir}/pixmaps/gshutdown.png
+%{_datadir}/applications/gshutdown.desktop
+%{_datadir}/locale/*
+%{_datadir}/man/*
+
+%changelog
+* Thu Aug 24 2006 Asher256 <contact@asher256.com>
+- Initial *.spec release.

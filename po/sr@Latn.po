@@ -1,0 +1,563 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GShutdown\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-06-24 15:50+0000\n"
+"PO-Revision-Date: 2007-02-02 15:15+0100\n"
+"Last-Translator: Maxime Chéramy <maxime81@gmail.com>\n"
+"Language-Team: GShutdown Team <gshutdown@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Serbian\n"
+
+#: ../src/args.c:48
+msgid "Launch the action after a certain delay : HH:MM"
+msgstr "Pokreni naredbu nakonodređenog vremena : HH:MM"
+
+#: ../src/args.c:49
+msgid "Launch the action at : HH:MM YYYY/MM/DD"
+msgstr "Pokreni naredbu u : HH:MM YYYY/MM/DD"
+
+#: ../src/args.c:50
+msgid "Launch the action now."
+msgstr "Pokreni naredbu sada."
+
+#: ../src/args.c:51
+msgid "Available actions are : \"shutdown\", \"reboot\" or \"logout\""
+msgstr "Dosturne naredbe su: \"shutdown\", \"reboot\" ili \"logout\""
+
+#: ../src/args.c:52
+msgid "Minimize the window at startup."
+msgstr "Umanji prozor po pokretanju"
+
+#: ../src/args.c:64
+#, c-format
+msgid "Error when parsing the arguments...\n"
+msgstr "Greška pro prosleđivanju argumenta...\n"
+
+#: ../src/args.c:81
+#, c-format
+msgid ""
+"You cannot call --launch-after-delay, --launch-at or --launch-now at the "
+"same time.\n"
+msgstr "Ne možete pozvati --launch-after-delay, --launch-at or --launch-now.\n"
+
+#: ../src/args.c:106
+#, c-format
+msgid ""
+"The authorized values in --action option are : shutdown, reboot or logout\n"
+msgstr "Vrednosti za --action su: shutdown, reboot ili logout\n"
+
+#: ../src/args.c:131
+#, c-format
+msgid "Error on parsing the content of %s : \"%s\".\n"
+msgstr "Greška u prosleđivanju sadržaja datoteke %s: \"%s\".\n"
+
+#: ../src/callback.c:213
+msgid "Notification test"
+msgstr "Provera sistema obaveštavanja"
+
+#: ../src/callback.c:250 ../src/gui.c:248
+#, fuzzy, c-format
+msgid "%s%u hour"
+msgid_plural "%s%u hours"
+msgstr[0] "%s%u sati"
+msgstr[1] "%s%u sati"
+
+#: ../src/callback.c:256 ../src/gui.c:255
+#, fuzzy, c-format
+msgid "%s%u minute"
+msgid_plural "%s%u minutes"
+msgstr[0] "%s%u minut"
+msgstr[1] "%s%u minut"
+
+#: ../src/callback.c:262 ../src/gui.c:261
+#, fuzzy, c-format
+msgid "%s%u second"
+msgid_plural "%s%u seconds"
+msgstr[0] "%s%u sekunda"
+msgstr[1] "%s%u sekunda"
+
+#: ../src/callback.c:386
+msgid "Computer is going to shutdown now !"
+msgstr "Računar se gasi!"
+
+#: ../src/callback.c:396
+msgid "Computer is going to reboot now !"
+msgstr "Računar se resetuje!"
+
+#: ../src/callback.c:406
+msgid "Current session will be terminated !"
+msgstr "Bićete odjavljeni!"
+
+#: ../src/callback_main_window.c:71
+msgid ""
+"I'm here !\n"
+"\n"
+"Move over me to see the countdown."
+msgstr ""
+"Я Ovde sam!\n"
+"\n"
+"Stavi kursor preko mene da vi video odbrojavanje."
+
+#: ../src/callback_main_window.c:86
+msgid "_Stop"
+msgstr "_Stani"
+
+#: ../src/callback_main_window.c:101
+msgid "Chosen time already exceeded"
+msgstr "Izabrano vreme je već proteklo"
+
+#: ../src/callback_main_window.c:136 ../src/gshutdown.glade:226
+msgid "_Start"
+msgstr "_Počni"
+
+#: ../src/callback_main_window.c:139 ../src/gui.c:575
+msgid "No action scheduled"
+msgstr "Nema zadatih rasporeda"
+
+#: ../src/callback_main_window.c:354
+msgid "Are you sure you want to quit ?"
+msgstr "Da li ste sigurni?"
+
+#: ../src/eggtrayicon.c:128
+msgid "Orientation"
+msgstr "Položaj"
+
+#: ../src/eggtrayicon.c:129
+msgid "The orientation of the tray."
+msgstr "Položaj u fijoci."
+
+#: ../src/gui.c:283
+msgid "At date and time"
+msgstr "Datuma, u vreme"
+
+#: ../src/gui.c:284
+msgid "After a delay"
+msgstr "Nakon proteklih"
+
+#: ../src/gui.c:285
+msgid "Now"
+msgstr "Odmah"
+
+#: ../src/gui.c:295 ../src/gshutdown.glade:410
+msgid "Turn off the computer"
+msgstr "Ugasi računar"
+
+#: ../src/gui.c:296 ../src/gshutdown.glade:419
+msgid "Restart computer"
+msgstr "Ponovo pokreni računar"
+
+#: ../src/gui.c:297 ../src/gshutdown.glade:428
+msgid "End current session"
+msgstr "Odjavi se"
+
+#: ../src/gui.c:301
+msgid "Extras"
+msgstr "Dodatno"
+
+#: ../src/gui.c:305
+msgid "Custom command..."
+msgstr "Proizvoljne komande..."
+
+#: ../src/gui.c:382
+msgid "Not detected!"
+msgstr "Nije pronađeno!"
+
+#: ../src/gui.c:474 ../src/gui.c:483
+msgid "Autodetect"
+msgstr "Hađi automatski"
+
+#: ../src/gui.c:563 ../src/gui.c:603
+#, c-format
+msgid "%s doesn't exist.\n"
+msgstr "%s ne postoji.\n"
+
+#: ../src/gui.c:639
+msgid "Shutdown"
+msgstr "Ugasi računar"
+
+#: ../src/gui.c:640
+msgid "Reboot"
+msgstr "Ponovo pokreni računar"
+
+#: ../src/gui.c:641
+msgid "Logout"
+msgstr "Odjavi se"
+
+#: ../src/gui.c:689
+msgid "Immediate action"
+msgstr "Trenutačna naredba"
+
+#: ../src/gui.c:692
+msgid "Cancel current action"
+msgstr "Obustavi trenutnu naredbu"
+
+#: ../src/gui.c:722
+msgid "Are you sure you want to shutdown your computer now ?"
+msgstr "Da li sigurno želite da ugasite računar?"
+
+#: ../src/gui.c:724
+msgid "Are you sure you want to restart your computer now ?"
+msgstr "Da li sigurno želite da ponovo pokrenete računar?"
+
+#: ../src/gui.c:726
+msgid "Are you sure you want to logout from your session now ?"
+msgstr "Da li sigurno želite da se odjavite sa računara?"
+
+#: ../src/gui.c:751
+msgid ""
+"GShutdown was unable to detect your display manager. Currently, GShutdown "
+"only supports GDM and KDM.\n"
+"\n"
+"Go to the configuration menu and specify the correct method to do that."
+msgstr ""
+"GShutdown nije u mogućnosti da odredi vaš menadžer displeja.Trenutno "
+"podržani su GDM i KDM.\n"
+"\n"
+"U postavkama programa odredite proizvoljne načine gašenja, ponovnog "
+"pokretanja i odjave."
+
+#: ../src/gui.c:756
+msgid ""
+"GShutdown was unable to detect your desktop. Currently, GShutdown only "
+"supports GNOME and KDE.\n"
+"\n"
+"Go to the configuration menu and specify the correct method to do that."
+msgstr ""
+"GShutdown nije u mogućnosti da odredi vaše korisničko sučelje.Trenutno "
+"podržana sučelja su GNOME i KDE.\n"
+"\n"
+"U postavkama programa odredite ispravno korisničko sučelje ručno."
+
+#: ../src/main.c:176
+#, c-format
+msgid "The configuration cannot be loaded from %s."
+msgstr "Nastroйki ne mogut bыtь zagruženы iz faйla %s."
+
+#: ../src/main.c:219
+#, c-format
+msgid "The configuration cannot be saved in %s."
+msgstr "Postavke ne mogu biti sačuvane %s."
+
+#: ../src/pconfirm.c:59
+msgid "Warning !"
+msgstr "Vnimanie !"
+
+#: ../src/pconfirm.c:77
+msgid "Warning ! Your computer is going to shutdown now !"
+msgstr "Upozorenje! Vaš računar će se sada ugasiti!"
+
+#: ../src/pconfirm.c:79
+msgid "Warning ! Your computer is going to restart now !"
+msgstr "Upozorenje! Vaš računar će se sada ponovo pokrenuti!"
+
+#: ../src/pconfirm.c:81
+msgid "Warning ! Your going to logout now !"
+msgstr "Upozorenje! Sada ćete biti odjavljeni sa računara!"
+
+#: ../src/timer.c:151
+#, c-format
+msgid "The computer will be shut down in :"
+msgstr "Računar će se ugasiti za : "
+
+#: ../src/timer.c:153
+#, c-format
+msgid "The computer will be restarted in :"
+msgstr "Računar će se ponovo pokrenuti za : "
+
+#: ../src/timer.c:155
+#, c-format
+msgid "Time before logout :"
+msgstr "Breme pre odjave :"
+
+#: ../src/timer.c:157
+#, c-format
+msgid "Time before action :"
+msgstr "Vreme pre izvršenja naredbe :"
+
+#: ../src/timer.c:165
+#, fuzzy, c-format
+msgid "%s %u minute"
+msgid_plural "%s %u minutes"
+msgstr[0] "%s %u minuta "
+msgstr[1] "%s %u minuta "
+
+#: ../src/timer.c:171
+#, fuzzy, c-format
+msgid "%s and %u second"
+msgid_plural "%s and %u seconds"
+msgstr[0] "%s i %u sekundi"
+msgstr[1] "%s i %u sekundi"
+
+#: ../src/timer.c:176
+#, fuzzy, c-format
+msgid "%s %u hour"
+msgid_plural "%s %u hours"
+msgstr[0] "%s %u sati"
+msgstr[1] "%s %u sati"
+
+#: ../src/timer.c:180
+#, fuzzy, c-format
+msgid "%s and %u minute"
+msgid_plural "%s and %u minutes"
+msgstr[0] "%s i %u minuti"
+msgstr[1] "%s i %u minuti"
+
+#: ../src/timer.c:184
+#, fuzzy, c-format
+msgid "%s %u day"
+msgid_plural "%s %u days"
+msgstr[0] "%s %u dan"
+msgstr[1] "%s %u dan"
+
+#: ../src/timer.c:188
+#, fuzzy, c-format
+msgid "%s and %u hour"
+msgid_plural "%s and %u hours"
+msgstr[0] "%s i %u sata"
+msgstr[1] "%s i %u sata"
+
+#: ../src/timer.c:202
+#, fuzzy, c-format
+msgid "%s %u second"
+msgid_plural "%s %u seconds"
+msgstr[0] "%s%u sekunda"
+msgstr[1] "%s%u sekunda"
+
+#: ../src/gshutdown.glade:25
+msgid "_File"
+msgstr "_Datoteka"
+
+#: ../src/gshutdown.glade:46
+msgid "_Edit"
+msgstr "_Izmeni"
+
+#: ../src/gshutdown.glade:67
+msgid "_Help"
+msgstr "_Pomoć"
+
+#: ../src/gshutdown.glade:126
+msgid "Hour"
+msgstr "Sat"
+
+#: ../src/gshutdown.glade:152
+msgid "Minute"
+msgstr "Minut"
+
+#: ../src/gshutdown.glade:179
+msgid "_Actual time"
+msgstr "_Trenutno vreme"
+
+#: ../src/gshutdown.glade:194
+msgid "Select a time"
+msgstr "Odaberi vreme"
+
+#: ../src/gshutdown.glade:248
+msgid "An advanced shutdown utility"
+msgstr "Napredan alat za gašenje"
+
+#: ../src/gshutdown.glade:267
+#, fuzzy
+msgid ""
+"Alejandro Zarate (Spanish)\n"
+"Alexander Sjögren (Swedish)\n"
+"Andrea Carnaroli (Italian)\n"
+"Andrew V. Sichevoi (Russian)\n"
+"Bill Heldorf Soerensen (Danish)\n"
+"Dóra Kováts (Hungarian)\n"
+"GShutdown Team (French)\n"
+"Kristopher (Polish)\n"
+"Miloš Popović (Serbian)\n"
+"Øyvind Pedersen (Norwegian)\n"
+"Rolando Emanuel Lopes Pereira (Portuguese)\n"
+"Rolf Loire (German)\n"
+"Siegfried Gevatter (Catalan)"
+msgstr ""
+"Alejandro Zarate (Španski)\n"
+"Alexander Sjögren (Švetski)\n"
+"Andrea Carnaroli (Italijanski)\n"
+"Andrew V. Sichevoi (Ruski)\n"
+"Bill Heldorf Soerensen (Danski)\n"
+"Dóra Kováts (Mađarski)\n"
+"GShutdown Team (Francuski)\n"
+"Miloš Popović (Srpski)\n"
+"Øyvind Pedersen (Norveški)\n"
+"Rolando Emanuel Lopes Pereira (Portugalski)\n"
+"Rolf Loire (Nemački)\n"
+"Siegfried Gevatter (Katalijanski)"
+
+#: ../src/gshutdown.glade:324
+msgid "Select a method :"
+msgstr "Odaberi način:"
+
+#: ../src/gshutdown.glade:343
+msgid "Custom command"
+msgstr "Proizvoljne komande"
+
+#: ../src/gshutdown.glade:386
+msgid "Specify the method manually"
+msgstr "Samostalno odaberi način"
+
+#: ../src/gshutdown.glade:398
+msgid "Autodetect the method (recommended)"
+msgstr "Automatski odaberi način (preporučljivo)"
+
+#: ../src/gshutdown.glade:446
+msgid "Launch a command before the action"
+msgstr "Pokreni komandu pre zadate naredbe"
+
+#: ../src/gshutdown.glade:488
+msgid "Actions"
+msgstr "Naredbe"
+
+#: ../src/gshutdown.glade:520
+msgid "Always"
+msgstr "Uvek"
+
+#: ../src/gshutdown.glade:530
+msgid "If active"
+msgstr "Ukoliko je aktivan"
+
+#: ../src/gshutdown.glade:540
+msgid "Never"
+msgstr "Nikada"
+
+#: ../src/gshutdown.glade:553
+msgid "Iconify when the action is started"
+msgstr "Umanji nakon početka izvršavanja naredbe"
+
+#: ../src/gshutdown.glade:567
+msgid "Show system tray icon"
+msgstr "Prikaži ikoicu u fijoci panela"
+
+#: ../src/gshutdown.glade:595
+msgid "Display warning message _before action"
+msgstr "Prikaži poruke uozorenja _pre zadate naredbe"
+
+#: ../src/gshutdown.glade:604
+msgid "T_est"
+msgstr "T_est"
+
+#: ../src/gshutdown.glade:614
+msgid "_Customize notifications time"
+msgstr "_Izmeni vreme za obaveštenja"
+
+#: ../src/gshutdown.glade:629
+msgid "Notifications"
+msgstr "Obaveštenja"
+
+#: ../src/gshutdown.glade:652
+msgid "Misc"
+msgstr "Dupuna"
+
+#: ../src/gshutdown.glade:675 ../src/gshutdown.glade:772
+#: ../src/gshutdown.glade:858 ../src/gshutdown.glade:944
+#: ../src/gshutdown.glade:1114
+msgid "gtk-close"
+msgstr ""
+
+#: ../src/gshutdown.glade:705
+msgid "Enter the command :"
+msgstr "Unesi komandu:"
+
+#: ../src/gshutdown.glade:805
+msgid "<b>Display manager :</b>"
+msgstr "<b>Menadžer displeja:</b>"
+
+#: ../src/gshutdown.glade:817
+msgid "<b>Desktop :</b>"
+msgstr "<b>Radna površina: </b>"
+
+#: ../src/gshutdown.glade:872
+msgid "Select the method manually"
+msgstr "Ručno odaberi metodu"
+
+#: ../src/gshutdown.glade:889
+msgid ""
+"Here, you can manually specify what is your desktop and display manager if "
+"GShutdown was unable to detect it itself."
+msgstr ""
+"Ovde možete ručno odabrati koje je Vaše korisničko sučelje i menadžer "
+"displeja ako programnije u mogućnosti da odredi samostalno"
+
+#: ../src/gshutdown.glade:897
+msgid "Desktop :"
+msgstr "Korisničko sučelje :"
+
+#: ../src/gshutdown.glade:916
+msgid "Display manager :"
+msgstr "Menadžer displeja :"
+
+#: ../src/gshutdown.glade:983
+msgid "gtk-remove"
+msgstr ""
+
+#: ../src/gshutdown.glade:1027
+msgid "h"
+msgstr "sat"
+
+#: ../src/gshutdown.glade:1048
+msgid "min"
+msgstr "min"
+
+#: ../src/gshutdown.glade:1069
+msgid "s"
+msgstr "sek"
+
+#: ../src/gshutdown.glade:1078
+msgid "gtk-add"
+msgstr ""
+
+#: ../src/gshutdown.glade:1094
+msgid "At time :"
+msgstr "U vreme :"
+
+#~ msgid "%s%u hours"
+#~ msgstr "%s%u sati"
+
+#~ msgid "%s%u minutes"
+#~ msgstr "%s%u minut"
+
+#~ msgid "%s%u seconds"
+#~ msgstr "%s%u sekunda"
+
+#~ msgid "%s 1 minute"
+#~ msgstr "%s 1 minut"
+
+#~ msgid "%s and 1 second"
+#~ msgstr "%s i 1 sekunda"
+
+#~ msgid "%s 1 hour"
+#~ msgstr "%s 1 sat"
+
+#~ msgid "%s and 1 minute"
+#~ msgstr "%s i 1 minuta"
+
+#~ msgid "%s %u days"
+#~ msgstr "%s %u dana"
+
+#~ msgid "%s and 1 hour"
+#~ msgstr "%s i 1 čas"
+
+#, fuzzy
+#~ msgid "%s : %u second"
+#~ msgstr "%s: %u sekundi"
+
+#~ msgid "%s : %u seconds"
+#~ msgstr "%s: %u sekundi"
+
+#, fuzzy
+#~ msgid "%s%u hourz"
+#~ msgid_plural "%s%u hourzs"
+#~ msgstr[0] "%s%u sati"
+#~ msgstr[1] "%s%u sati"
+
+#~ msgid "Not implemented yet!"
+#~ msgstr "Još uvek nerealizovno!"

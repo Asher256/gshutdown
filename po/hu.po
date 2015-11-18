@@ -1,0 +1,566 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-06-24 15:50+0000\n"
+"PO-Revision-Date: 2007-01-27 02:20+0100\n"
+"Last-Translator: Kováts Dóra <dorcssa@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/args.c:48
+msgid "Launch the action after a certain delay : HH:MM"
+msgstr "A folyamat ennyi késleltetés után indul : ÓÓ:PP"
+
+#: ../src/args.c:49
+msgid "Launch the action at : HH:MM YYYY/MM/DD"
+msgstr "A folyamat ekkor indul : ÓÓ:PP ÉÉÉÉ/HH/NN"
+
+#: ../src/args.c:50
+msgid "Launch the action now."
+msgstr "A folyamat indítása most."
+
+#: ../src/args.c:51
+msgid "Available actions are : \"shutdown\", \"reboot\" or \"logout\""
+msgstr "Lehetséges folyamatok : \"shutdown\", \"reboot\" vagy \"logout\""
+
+#: ../src/args.c:52
+msgid "Minimize the window at startup."
+msgstr "Az ablak minimalizálása indításkor."
+
+#: ../src/args.c:64
+#, c-format
+msgid "Error when parsing the arguments...\n"
+msgstr "Hiba a tartományok elemzésekor...\n"
+
+#: ../src/args.c:81
+#, c-format
+msgid ""
+"You cannot call --launch-after-delay, --launch-at or --launch-now at the "
+"same time.\n"
+msgstr ""
+"Nem választhatod egyszerre, hogy --launch-after-delay, --launch-at vagy --"
+"launch-now.\n"
+
+#: ../src/args.c:106
+#, c-format
+msgid ""
+"The authorized values in --action option are : shutdown, reboot or logout\n"
+msgstr "A lehetséges értékek --action : shutdown, reboot vagy logout\n"
+
+#: ../src/args.c:131
+#, c-format
+msgid "Error on parsing the content of %s : \"%s\".\n"
+msgstr "Hiba a(z) %s : \"%s\" tartalmának elemzésénél.\n"
+
+#: ../src/callback.c:213
+msgid "Notification test"
+msgstr "Értesítési teszt"
+
+#: ../src/callback.c:250 ../src/gui.c:248
+#, fuzzy, c-format
+msgid "%s%u hour"
+msgid_plural "%s%u hours"
+msgstr[0] "%s %u óra"
+msgstr[1] "%s %u óra"
+
+#: ../src/callback.c:256 ../src/gui.c:255
+#, fuzzy, c-format
+msgid "%s%u minute"
+msgid_plural "%s%u minutes"
+msgstr[0] "%s%u perc%s"
+msgstr[1] "%s%u perc%s"
+
+#: ../src/callback.c:262 ../src/gui.c:261
+#, fuzzy, c-format
+msgid "%s%u second"
+msgid_plural "%s%u seconds"
+msgstr[0] "%s%u másodperc%s"
+msgstr[1] "%s%u másodperc%s"
+
+#: ../src/callback.c:386
+msgid "Computer is going to shutdown now !"
+msgstr "A számítógép most fog leállni !"
+
+#: ../src/callback.c:396
+msgid "Computer is going to reboot now !"
+msgstr "A számítógép most fog újraindulni !"
+
+#: ../src/callback.c:406
+msgid "Current session will be terminated !"
+msgstr "A jelenlegi munkafolyamat le fog állni !"
+
+#: ../src/callback_main_window.c:71
+msgid ""
+"I'm here !\n"
+"\n"
+"Move over me to see the countdown."
+msgstr ""
+"Itt vagyok !\n"
+"\n"
+"Mozgass át hogy lásd a visszaszámlálást."
+
+#: ../src/callback_main_window.c:86
+msgid "_Stop"
+msgstr "_Leállít"
+
+#: ../src/callback_main_window.c:101
+msgid "Chosen time already exceeded"
+msgstr "A kiválasztott időpont már lejárt"
+
+#: ../src/callback_main_window.c:136 ../src/gshutdown.glade:226
+msgid "_Start"
+msgstr "_Elindít"
+
+#: ../src/callback_main_window.c:139 ../src/gui.c:575
+msgid "No action scheduled"
+msgstr "Nincs ütemezett feladat"
+
+#: ../src/callback_main_window.c:354
+msgid "Are you sure you want to quit ?"
+msgstr "Biztos ki akarsz lépni?"
+
+#: ../src/eggtrayicon.c:128
+msgid "Orientation"
+msgstr "Irány"
+
+#: ../src/eggtrayicon.c:129
+msgid "The orientation of the tray."
+msgstr "A tálca iránya."
+
+#: ../src/gui.c:283
+msgid "At date and time"
+msgstr "Dátum és idő szerint"
+
+#: ../src/gui.c:284
+msgid "After a delay"
+msgstr "Bizonyos idő után"
+
+#: ../src/gui.c:285
+msgid "Now"
+msgstr "Most"
+
+#: ../src/gui.c:295 ../src/gshutdown.glade:410
+msgid "Turn off the computer"
+msgstr "A számítógép leállítása"
+
+#: ../src/gui.c:296 ../src/gshutdown.glade:419
+msgid "Restart computer"
+msgstr "A számítógép újraindítása"
+
+#: ../src/gui.c:297 ../src/gshutdown.glade:428
+msgid "End current session"
+msgstr "A jelenlegi munkafolyamat befejezése"
+
+#: ../src/gui.c:301
+msgid "Extras"
+msgstr "Extrák"
+
+#: ../src/gui.c:305
+msgid "Custom command..."
+msgstr "Egyéni parancs..."
+
+#: ../src/gui.c:382
+msgid "Not detected!"
+msgstr "Nem található!"
+
+#: ../src/gui.c:474 ../src/gui.c:483
+msgid "Autodetect"
+msgstr "Autofelismerés"
+
+#: ../src/gui.c:563 ../src/gui.c:603
+#, c-format
+msgid "%s doesn't exist.\n"
+msgstr "%s nem létezik.\n"
+
+#: ../src/gui.c:639
+msgid "Shutdown"
+msgstr "Leállítás"
+
+#: ../src/gui.c:640
+msgid "Reboot"
+msgstr "Újraindítás"
+
+#: ../src/gui.c:641
+msgid "Logout"
+msgstr "Kijelentkezés"
+
+#: ../src/gui.c:689
+msgid "Immediate action"
+msgstr "Azonnali cselekvés"
+
+#: ../src/gui.c:692
+msgid "Cancel current action"
+msgstr "A jelenlegi folyamat törlése"
+
+#: ../src/gui.c:722
+msgid "Are you sure you want to shutdown your computer now ?"
+msgstr "Biztos le akarod állítani a számítógépet?"
+
+#: ../src/gui.c:724
+msgid "Are you sure you want to restart your computer now ?"
+msgstr "Biztos újra akarod indítani a számítógépet?"
+
+#: ../src/gui.c:726
+msgid "Are you sure you want to logout from your session now ?"
+msgstr "Biztos ki akarsz jelentkezni?"
+
+#: ../src/gui.c:751
+msgid ""
+"GShutdown was unable to detect your display manager. Currently, GShutdown "
+"only supports GDM and KDM.\n"
+"\n"
+"Go to the configuration menu and specify the correct method to do that."
+msgstr ""
+"A GShutdown nem volt képes felismerni a monitor-menedzsert. Jelenleg a "
+"GShutdown csak a GDM-et és a KDM-et támogatja.\n"
+"\n"
+"Menj a beállításokhoz és használd a megfelelő módot a támogatáshoz."
+
+#: ../src/gui.c:756
+msgid ""
+"GShutdown was unable to detect your desktop. Currently, GShutdown only "
+"supports GNOME and KDE.\n"
+"\n"
+"Go to the configuration menu and specify the correct method to do that."
+msgstr ""
+"A GShotdown nem tudta felismerni az asztalkörnyezetet. Jelenleg a GShutdown "
+"csak a GNOME-ot és a KDE-t támogatja.\n"
+"\n"
+"Menj a beállításokhoz és használd a megfelelő módot a támogatáshoz."
+
+#: ../src/main.c:176
+#, c-format
+msgid "The configuration cannot be loaded from %s."
+msgstr "A konfigurációt nem lehetett indítani %s -ből."
+
+#: ../src/main.c:219
+#, c-format
+msgid "The configuration cannot be saved in %s."
+msgstr "A konfigurásiót nem lehetett menteni %s -ben."
+
+#: ../src/pconfirm.c:59
+msgid "Warning !"
+msgstr "Vigyázat!"
+
+#: ../src/pconfirm.c:77
+msgid "Warning ! Your computer is going to shutdown now !"
+msgstr "Vigyázat ! A számítógép most fog leállni !"
+
+#: ../src/pconfirm.c:79
+msgid "Warning ! Your computer is going to restart now !"
+msgstr "Vigyázat ! A számítógép most fog újrandulni !"
+
+#: ../src/pconfirm.c:81
+msgid "Warning ! Your going to logout now !"
+msgstr "Vigyázat ! A számítógép most fog kijelentkezni ! "
+
+#: ../src/timer.c:151
+#, c-format
+msgid "The computer will be shut down in :"
+msgstr "A számítógép leáll :"
+
+#: ../src/timer.c:153
+#, c-format
+msgid "The computer will be restarted in :"
+msgstr "A számítógép újraindul :"
+
+#: ../src/timer.c:155
+#, c-format
+msgid "Time before logout :"
+msgstr "Kijelentkezés ennyi idő múlva :"
+
+#: ../src/timer.c:157
+#, c-format
+msgid "Time before action :"
+msgstr "Folyamat elindítása ennyi idő múlva :"
+
+#: ../src/timer.c:165
+#, fuzzy, c-format
+msgid "%s %u minute"
+msgid_plural "%s %u minutes"
+msgstr[0] "%s %u perc"
+msgstr[1] "%s %u perc"
+
+#: ../src/timer.c:171
+#, fuzzy, c-format
+msgid "%s and %u second"
+msgid_plural "%s and %u seconds"
+msgstr[0] "%s és %u másodperc"
+msgstr[1] "%s és %u másodperc"
+
+#: ../src/timer.c:176
+#, fuzzy, c-format
+msgid "%s %u hour"
+msgid_plural "%s %u hours"
+msgstr[0] "%s %u óra"
+msgstr[1] "%s %u óra"
+
+#: ../src/timer.c:180
+#, fuzzy, c-format
+msgid "%s and %u minute"
+msgid_plural "%s and %u minutes"
+msgstr[0] "%s és %u perc"
+msgstr[1] "%s és %u perc"
+
+#: ../src/timer.c:184
+#, fuzzy, c-format
+msgid "%s %u day"
+msgid_plural "%s %u days"
+msgstr[0] "%s %u nap"
+msgstr[1] "%s %u nap"
+
+#: ../src/timer.c:188
+#, fuzzy, c-format
+msgid "%s and %u hour"
+msgid_plural "%s and %u hours"
+msgstr[0] "%s és %u óra"
+msgstr[1] "%s és %u óra"
+
+#: ../src/timer.c:202
+#, fuzzy, c-format
+msgid "%s %u second"
+msgid_plural "%s %u seconds"
+msgstr[0] "%s%u másodperc%s"
+msgstr[1] "%s%u másodperc%s"
+
+#: ../src/gshutdown.glade:25
+msgid "_File"
+msgstr "_Fájl"
+
+#: ../src/gshutdown.glade:46
+msgid "_Edit"
+msgstr "_Szerkesztés"
+
+#: ../src/gshutdown.glade:67
+msgid "_Help"
+msgstr "_Súgó"
+
+#: ../src/gshutdown.glade:126
+msgid "Hour"
+msgstr "Óra"
+
+#: ../src/gshutdown.glade:152
+msgid "Minute"
+msgstr "Perc"
+
+#: ../src/gshutdown.glade:179
+msgid "_Actual time"
+msgstr "_Jelenlegi idő"
+
+#: ../src/gshutdown.glade:194
+msgid "Select a time"
+msgstr "Válassz időt"
+
+#: ../src/gshutdown.glade:248
+msgid "An advanced shutdown utility"
+msgstr "Egy fejlett leállító program"
+
+#: ../src/gshutdown.glade:267
+#, fuzzy
+msgid ""
+"Alejandro Zarate (Spanish)\n"
+"Alexander Sjögren (Swedish)\n"
+"Andrea Carnaroli (Italian)\n"
+"Andrew V. Sichevoi (Russian)\n"
+"Bill Heldorf Soerensen (Danish)\n"
+"Dóra Kováts (Hungarian)\n"
+"GShutdown Team (French)\n"
+"Kristopher (Polish)\n"
+"Miloš Popović (Serbian)\n"
+"Øyvind Pedersen (Norwegian)\n"
+"Rolando Emanuel Lopes Pereira (Portuguese)\n"
+"Rolf Loire (German)\n"
+"Siegfried Gevatter (Catalan)"
+msgstr ""
+"Alejandro Zarate (Spanyol)\n"
+"Alexander Sjögern (Svéd)\n"
+"Andrea Carnaroli (Olasz)\n"
+"Andrew V. Sichevoi (Orosz)\n"
+"Bill Heldorf Soerensen (Dán)\n"
+"Kováts Dóra (Magyar)\n"
+"GShutdown Team (Francia)\n"
+"Rolando Emanuel Lopes Pereira (Portugál)\n"
+"Rolf Loire (Német)\n"
+"Siegfried Gevatter (Katalán)"
+
+#: ../src/gshutdown.glade:324
+msgid "Select a method :"
+msgstr "Válassz módot :"
+
+#: ../src/gshutdown.glade:343
+msgid "Custom command"
+msgstr "Egyéni parancs"
+
+#: ../src/gshutdown.glade:386
+msgid "Specify the method manually"
+msgstr "Mód megadása manuálisan"
+
+#: ../src/gshutdown.glade:398
+msgid "Autodetect the method (recommended)"
+msgstr "Mód autofelismerése (javasolt)"
+
+#: ../src/gshutdown.glade:446
+msgid "Launch a command before the action"
+msgstr "Parancs elindítása a folyamat előtt"
+
+#: ../src/gshutdown.glade:488
+msgid "Actions"
+msgstr "Folyamatok"
+
+#: ../src/gshutdown.glade:520
+msgid "Always"
+msgstr "Mindig"
+
+#: ../src/gshutdown.glade:530
+msgid "If active"
+msgstr "Ha aktív"
+
+#: ../src/gshutdown.glade:540
+msgid "Never"
+msgstr "Soha"
+
+#: ../src/gshutdown.glade:553
+msgid "Iconify when the action is started"
+msgstr "Ikon mutatása ha a folyamat elkedődött"
+
+#: ../src/gshutdown.glade:567
+msgid "Show system tray icon"
+msgstr "Tálcaikon megjelenítése"
+
+#: ../src/gshutdown.glade:595
+msgid "Display warning message _before action"
+msgstr "Figyelmeztető üzenet kiírása a _folyamat előtt"
+
+#: ../src/gshutdown.glade:604
+msgid "T_est"
+msgstr "T_eszt"
+
+#: ../src/gshutdown.glade:614
+msgid "_Customize notifications time"
+msgstr "_Értesítési idő beállítása"
+
+#: ../src/gshutdown.glade:629
+msgid "Notifications"
+msgstr "Értesítések"
+
+#: ../src/gshutdown.glade:652
+msgid "Misc"
+msgstr "Egyéb"
+
+#: ../src/gshutdown.glade:675 ../src/gshutdown.glade:772
+#: ../src/gshutdown.glade:858 ../src/gshutdown.glade:944
+#: ../src/gshutdown.glade:1114
+msgid "gtk-close"
+msgstr ""
+
+#: ../src/gshutdown.glade:705
+msgid "Enter the command :"
+msgstr "Írd be a parancsot :"
+
+#: ../src/gshutdown.glade:805
+#, fuzzy
+msgid "<b>Display manager :</b>"
+msgstr "<b>Asztal :</b>"
+
+#: ../src/gshutdown.glade:817
+msgid "<b>Desktop :</b>"
+msgstr "<b>Asztal :</b>"
+
+#: ../src/gshutdown.glade:872
+msgid "Select the method manually"
+msgstr "Mód kiválasztása manuálisan"
+
+#: ../src/gshutdown.glade:889
+msgid ""
+"Here, you can manually specify what is your desktop and display manager if "
+"GShutdown was unable to detect it itself."
+msgstr ""
+"Itt manuálisan beállíthatod, mi az asztali környezeted és a monitor-"
+"menedzsered, ha a GShutdown nem tudta felismerni."
+
+#: ../src/gshutdown.glade:897
+msgid "Desktop :"
+msgstr "Asztal :"
+
+#: ../src/gshutdown.glade:916
+msgid "Display manager :"
+msgstr ""
+
+#: ../src/gshutdown.glade:983
+msgid "gtk-remove"
+msgstr ""
+
+#: ../src/gshutdown.glade:1027
+msgid "h"
+msgstr "ó"
+
+#: ../src/gshutdown.glade:1048
+msgid "min"
+msgstr "perc"
+
+#: ../src/gshutdown.glade:1069
+msgid "s"
+msgstr "mp"
+
+#: ../src/gshutdown.glade:1078
+msgid "gtk-add"
+msgstr ""
+
+#: ../src/gshutdown.glade:1094
+msgid "At time :"
+msgstr "Ebben az időben :"
+
+#, fuzzy
+#~ msgid "%s%u hours"
+#~ msgstr "%s %u óra"
+
+#, fuzzy
+#~ msgid "%s%u minutes"
+#~ msgstr "%s%u perc%s"
+
+#, fuzzy
+#~ msgid "%s%u seconds"
+#~ msgstr "%s%u másodperc%s"
+
+#~ msgid "%s 1 minute"
+#~ msgstr "%s 1 perc"
+
+#~ msgid "%s and 1 second"
+#~ msgstr "%s és 1 másodperc"
+
+#~ msgid "%s 1 hour"
+#~ msgstr "%s 1 óra"
+
+#~ msgid "%s and 1 minute"
+#~ msgstr "%s és 1 perc"
+
+#~ msgid "%s %u days"
+#~ msgstr "%s %u nap"
+
+#~ msgid "%s and 1 hour"
+#~ msgstr "%s és 1 óra"
+
+#, fuzzy
+#~ msgid "%s : %u second"
+#~ msgstr "%s : %u másodperc"
+
+#~ msgid "%s : %u seconds"
+#~ msgstr "%s : %u másodperc"
+
+#, fuzzy
+#~ msgid "%s%u hourz"
+#~ msgid_plural "%s%u hourzs"
+#~ msgstr[0] "%s %u óra"
+#~ msgstr[1] "%s %u óra"
+
+#~ msgid "%s%u minute%s"
+#~ msgstr "%s%u perc%s"
+
+#~ msgid "%s%u second%s"
+#~ msgstr "%s%u másodperc%s"
+
+#~ msgid "Not implemented yet!"
+#~ msgstr "Még nincs teljesítve!"

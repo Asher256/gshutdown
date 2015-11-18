@@ -1,0 +1,518 @@
+2007-06-23 Asher256
+	* Italian translation added (thanks to Andrea Carnaroli).
+
+2007-06-22 Asher256
+	* Russian translation updated (thanks to Andrew V. Sichevoi).
+
+2007-06-11 Asher256
+	* Catalan translation updated (thanks to Siegfried Gevatter).
+
+2007-06-10 Asher256
+	* "Plural-forms:" added in es.po, no.po and ru.po.
+	* gdm.c call is replaced by gdmflexiserver commad (because we have a 
+	  communication problem with this session manager.
+	* French translation updated
+	* Portuguese (pt.po) translation updated (thanks to Rolando Pereira).
+
+2007-05-19 Asher256
+	* ngettext support (plural forms)
+
+2007-05-08 Asher256
+	* gdm.c updated from gnome-panel 2.18
+
+2007-02-18 Asher256
+	* all dialogs are shown in the mouse position
+	* main_window callbacks moved to callback_main_window.c
+	* all main_window and about_dialog signal connection
+	  uses now the glade_xml_signal_autoconnect().
+
+2007-02-08 Asher256
+	* Polish translation added (thanks to Kristopher)
+
+2007-02-04 Asher256
+	* Italian translation updated (Thanks to Andea Carnaroli)
+
+2007-02-02  Asher256
+	* Serbian patch applied to gshutdown.desktop.in
+	* HACKING updated (translation notes)
+
+2007-02-02  Maxime Cheramy
+	* Serbian translation added (Thanks to Miloš Popović)
+
+2007-02-01  Asher256
+	* ngettext is used with plural form in on_btn_notification_date_close()
+	  and in gui_set_notification_date()
+
+2007-01-31  Asher256
+	* GNOME logout bug fixed
+	* XFCE support
+	* release 0.2rc1
+
+2007-01-30  Maxime Cheramy
+	* Fix few translations
+
+2007-01-30  Asher256
+	* some fixes
+
+2007-01-27  Maxime Cheramy
+	* Translations updated (Thanks to all translators)
+
+2007-01-21  Asher256
+	* "no" added in configure.ac
+
+2007-01-23  Maxime Cheramy
+	* LGPL license text added
+	* Bugfix : on_combo_action wasn't called... It's my fault :/
+
+2007-01-19  Maxime Cheramy
+	* Norwegian translation added (Thanks to Øyvind Pedersen)
+
+2007-01-19  Asher256
+	* Bugfix : the about's close button now closes the window
+
+2007-01-18  Maxime Cheramy
+	* Italian translation added (Thanks to Andea Carnaroli)
+	* da and it added in configure.ac
+
+2007-01-17  Asher256
+	* de, hu and ru added in configure.ac
+
+2007-01-17  Maxime Cheramy
+	* Hungarian translation added (Thanks to Dóra Kováts)
+	* Dannish translation added (Thanks to Bill H. Soerensen)
+
+2007-01-16  Maxime Cheramy
+	* Russian translation added (Thanks to Andrew V. Sichevoi)
+
+2007-01-10  Maxime Cheramy
+	* German translation added (Thanks to Rolf Loire)
+
+2007-01-02  Asher256
+	* Sweden translation added (Thanks to Alexander Sjögren)
+
+2007-01-02  Maxime Cheramy
+	* Portuguese translation added (Thanks to Rolando Pereira)
+	* Some tranlations errors in all languages have been fixed
+
+2007-01-01  Asher256
+	* Spanish translation added (Thanks to Alejandro Zarate)
+	* Spanish and Catalan translation declared in configure.ac
+	* --launch-from-now renamed to --launch-after-delay
+	* French translation updated
+
+2007-01-01  Maxime Cheramy
+	* Add Catalan translation (Thanks to Siegfried Gevatter)
+
+2006-12-30  Asher256
+	* French translation updated
+
+2006-12-13  Asher256
+	* Short version of --launch-from-now is now -h (like shutdown)
+	* Now, only the time is parsed in -h
+	* It's possible to enter MM (minute) only (else than HH:MM) in -h option.
+
+2006-12-09  Asher256
+	* New command line options : --launch-now, --launch-from-now, --launch-at
+	* 0.1cvs changed by 0.2cvs in configure.ac
+	* new files : debug.h debug.c
+	* new function debug_printf() to show all debug messages, when DEBUG
+	  macro is defined
+	* New values supported by --launch-at : tomorrow and demain.
+	* New option : --minimize
+
+2006-11-03  Maxime Cheramy
+	* Add extras menu (only menu)
+
+2006-11-01  Maxime Cheramy
+	* Notification date dialog works. 
+
+2006-11-01  Asher256
+	* Little changes in the code (style of the code, warnings, etc.)
+
+2006-10-31  Maxime Chéramy
+	* Now notification date dialog shows current setting.
+
+2006-10-15  Asher256
+	* French translation updated
+
+2006-10-04  Asher256
+	* New function to handle all arguments handle_arguments()
+	* glib >= 2.6 is now required in configure.ac
+	* New command line option (--action=shutdown, reboot or logout)
+
+2006-09-18  Asher256
+	* All Maxime's modification are merged
+	* The file PKGBUILD is added in the project. Arch Linux 
+	  package is now supported!
+
+2006-09-15  Maxime Cheramy
+	* which function removed and replaced to g_find_program_in_path
+
+2006-09-04  Asher256
+	* Hour and Minute tooltip are now translatable
+	* All maxime's modifications are merged
+
+2006-09-03  Asher256
+	* In README and LISEZMOI, the dependencies to compile the
+	  source code in Fedora Core and Ubuntu are added.
+	* It's now possible to choose if libnotify is compiled
+	  with GShutdown.
+	* All notification code are now between 
+	  #ifdef LIBNOTIFY_ENABLED and #endif.
+	* frame_config_notifications is hidden when LIBNOTIFY_ENABLED
+	  is not defined.
+	* In the time remaining, "Time before action" are replaced
+	  by "Time before shutdown", "Time before restart" and
+	  "Time before logout" (proposed by Thesa)
+
+2006-09-02  Asher256
+	* ":" (in the main_window) is now centered in y alignment
+	* The bug in the default values is now fixed
+	* French translation updated: "sûre" replaced by "sûr"
+	  (proposed by Thesa)
+	* Xmu header removed from detectwm.c
+	* X11/cursorfont.h removed from detectwm.c
+	* x11proto-core-dev added in the dependencies
+	* New dependencies in gshutdown.spec.in, for Fedora Core : 
+	  gtk+-devel libglade2-devel libnotify-dev 
+	  (proposed by Sebastien Bilbeau)
+	* New dependencies in debian/control : x11proto-core-dev, 
+	  libxau-dev
+	* Bug fixed : When "if active" is selected, the systray
+	  icon are now hidden when the program is started.
+
+2006-09-01  GShutdown Team
+	* First release 0.1
+
+2006-09-01  Asher256
+	* KDE is now detected with the window manager KWin
+	* XFCE is now detected with the window manager Xfwm4
+	* bacon-message-connection.* renamed to bacon.*
+	* GNOME_DESKTOP_SESSION_ID environment variable is used
+	  to detect GNOME, after the window manager test.
+	* Bug fixed when the selected desktop is saved in
+	  ~/.gshutdown
+	* French translation updated
+	* XFCE logout is now supported (xfce4-session-logout)
+	* KDE logout is now supported (kdeinit_shutdown)
+	* Some changes in the source code
+	* XFCE, KDE, KDM added in the message box of 
+	  detect_error_dialog() and in the french translation.
+	* XFCE is now not supported
+
+2006-09-01  Maxime Cheramy
+	* Bugfix with the calendar
+	* KDM detection added
+	* KDM support added
+
+2006-08-31  Asher256
+	* action_method, detected_display_manager and detected_desktop 
+	  are now in "values" structure
+	* action_autodetect() renamed to values_action_method_autodetect()
+	* New variables in values selected_display_manager and
+	  selected_desktop.
+	* New values in Desktop and DisplayManager enum (KDE, XFCE and KDM)
+	* The selected display manager and desktop are now saved and loaded
+	  in the configuration file ~/.gshutdown
+	* ACTION_DISPLAY_MANAGER_** -> DISPLAY_MANAGER_* and 
+	  ACTION_DESKTOP_* -> ACTION_DESKTOP_*
+	* Now, it's possible to run the selected method (KDE, XFCE, GNOME,
+	  GDM and KDM).
+	* The storing of the method is changed from string to integer value
+	  (selected_display_manager and selected_desktop)
+	* action_scheduled is now values.action_scheduled
+	* New reading (relecture) of main.c, main.h, values.c and 
+	  values.h, some little bugs are fixed.
+	* GShutdown Team is now in all *.h *.c headers (copyright)
+	* SIGINT and SIGCHLD are now in two functions (warning reported
+	  by rats auditing tool)
+
+2006-08-31  Maxime Cheramy
+	* Optimize time's selection
+	* Bugfix : Bad countdown if the date is in another month or year
+	* Change text's tooltip (about how to display time left)
+	* French translation updated
+
+2006-08-30  Asher256
+	* All warnings removed
+	* New image in the left of the command entry
+	  (Custom command and command before action) to
+	  show if the command exists.
+	* Some improvements in command_exists()
+	* The pointer returned by bacon_message_connection_new() 
+	  is now freed in called_at_exit() (reported by valgrind)
+	* All dialogs/windows are not resizable
+	* Vim folding organization added in callback.c
+	* New dialog = action_method_dialog. It's to select manually
+	  the method.
+	* French translation updated
+
+2006-08-30  Maxime Cheramy
+	* Callback called every day at 00:00 to change the day mark
+	* Optimize time's selection
+	* Warning on start if autodetection failed
+	* Add a GtkNotebook in the config dialog
+	* French translation updated
+
+2006-08-29  Asher256
+	* In timer_notify(), if(timeleft < SECS_IN_HOUR), only
+	  the minute is shown.
+	* Command before an action support implemented
+	* Now, the action method is with radio buttons
+	* New action method in the configuration dialog 
+	  (manual, to specify manually KDE, GNOME, XFCE...)
+
+2006-08-29  Maxime Cheramy
+	* Now gshutdown detects if it's already opened
+	* If gshutdown was already opened, show the main window
+	* Systray Image now changes when an action is scheduled
+	* Mark the current day in the calendar
+
+2006-08-28  Maxime Cheramy
+	* Now display notification contains an icon
+	* Click on the notification now shows the main window
+
+2006-08-28  Asher256
+	* New files detectwm.c detectwm.h (based on the Maxime's
+	  fork of WM detection)
+	* New function in detectwm.c : detect_window_manager()
+	* The desktop detection is now with the environment variable
+	  and with detect_window_manager().
+	* The version is now shown in about dialog
+	* Gdm detection and GDM shutdown, reboot uses now gdm.c
+	* New files binreloc.c and binreloc.h, binreloc.* added
+	  in src/Makefile.am and configure.ac.
+	* Autopackage script added
+
+2006-08-27  Maxime Cheramy
+	* Fork of wmctrl to get wm detection (not currently added to
+	gshutdown project yet)
+
+2006-08-27  Asher256
+	* All action_run_command() code are now in run_command(), to be used
+	  by all function (not only by action*).
+	* New function: command_exists()
+	* Halt, reboot and logout are now work fine in GNOME/GDM, with
+	  the command line interface.
+	* French translation updated
+	* mnu_check_system is now in the action configuration dialog.
+	  The new name of this widget is btn_check_system.
+
+2006-08-26  Asher256
+	* A macro is now used in traymenu() for more visibility
+	* action_run_command() improved
+	* Some changes in most files (for more visibility of the
+	  code)
+	* Hour and Minute tooltip are now in the glade file
+	* The preference dialog no longer have the exclusivity. Now It's possible
+	  to send an event to the main window in the same time.
+	* New dialog, item in the menu named "Check system information". It's
+	  useful to show if the display manager or the desktop are detected.
+	* All important printf are replaced by gtk_message_dialog
+	* Bug fixed: gtk_main_quit() called only if main_loop == TRUE
+	* New global variables : detected_desktop and detected_display_manager
+	* action_autodetect() is now used to detect in detected_desktop and 
+	  detected_display_manager.
+	* The name of the desktop and the display manager are now in the
+	  check_system dialog.
+
+2006-08-26  Maxime Cheramy
+	* Now if you select a timecount, the precision is now at 1 sec instead
+	  of 1mn like before
+	* Now display notification come from the systray icon if visible
+	* Changing some text message
+	* New function : confirm_dialog(Action *id_action) to confirm the
+	  action
+	* cancel_dialog : now display a message considering the action instead
+	  of the generic message "...the action..."
+
+2006-08-25  Maxime Cheramy
+	* Optimize precision of time left (now shows seconds)
+	* Bugfix : Cancel dialog didn't work more than one time
+	* Now the user can't schedule an action in the past and a message
+	  dialog appears
+	* Cancelling the action now close the dialog_confirm (cancel dialog) if active
+	* First version of the README file
+
+2006-08-25  Asher256
+	* New file gshutdown.spec.in (to create an RPM distribution)
+	* New file gshutdown.lsm.in (The Linux Software Map)
+	* gshutdown.desktop is moved to gshutdown.desktop.in (useful
+	  to generate dynamically this file)
+	* gshutdown.desktop gshutdown.lsm.* and gshutdown.spec.* are 
+	  added in configure.ac and Makefile.am.
+	* New border in the container of the progress_confirm
+	* The action is now launched in dialog_confirm callbacks
+	* English man file
+	* The debian source is now available in debian/. It's now
+	  possible to build a *.deb package.
+	* Error message when values_load() or values_save() are failed.
+	* gui_notification() have now a new argument : type
+	* All "enum" are now "typedef enum"
+	* The GNOME/GDM is now available action_autodetect() (it use 
+	  the environment variable)
+	* If the Display Manager or the Desktop is not detected, the
+	  action cannot be launched with on_btn_start().
+	* Some modifications in create_mnu_tray_action_now()
+	* French translation updated
+	* create_mnu_tray_action_now() is now "compressed"
+
+2006-08-24  Maxime Cheramy
+	* New files : progress_confirm.c, progress_confirm.h
+	* New cancel dialog when timeleft before action is = 0
+	* New confirmation dialog when asking for an immediate action
+	* French translation update
+	* Change the place of the action timer
+
+2006-08-24  Asher256
+	* French translation update (all GtkMenuItem and 
+	  config_action_dialog widgets)
+	* New check button "check_iconify" with on_check_iconify()
+	  callback.
+	* New option : Iconify when the action is started.
+	* New variables and functions : check_iconify, on_check_iconify,
+	  iconify in "values". It's saved and loaded from the configuration
+	  file.
+	* Bug fixed : The main window is not showed when "on_mnu_tray_cancel" is
+	  called to hide the systray icon.
+	* The Action description in label_action_description is now available.
+	* New variable values.current_action to store the current action. It 
+	  updated by a new callback name on_combo_action().
+	* The immediate actions (shutdown, reboot, logout) are now launched
+
+2006-08-23  Maxime Cheramy
+	* New functions : gui_systray_icon_hide() and gui_systray_icon_show()
+	* Now systray icon is showed in function of settings : always, never or if active
+	* bugfix : window was hidden on close even if systray icon is hidden...
+	* Update french translation
+
+2006-08-23  Asher256
+	* All synchronization functions deleted. Now, the synchronisation is
+	  with callbacks.
+	* Function on_time_type renamed : on_combo_time_type
+	* New callback : on_spin_hour() on_spin_minute() on_calendar()
+	* values.current_choice is now values.time_choice. It's now an enum.
+	* "Valid and Cancel" are replaced by "Close button" (GNOME/Gtk style) in
+	  the configuration widget.
+	* Function to handle check_show_notifications
+	* New callback: on_btn_test_notifications()
+	* The value of check_show_notifications is now saved and loaded (from the
+	  configuration file)
+	* Functions to handle all radio_systray* : on_radio_systray_always,
+	  on_radio_systray_never, on_radio_systray_if_active.
+	* Save and load the check_radio_systray* value in the configuration file.
+	* The items of combo_action and combo_time_type is now appended from gui.c.
+	  It's useful for the futur translations.
+	* New dialog : config_action_dialog
+	* New callback: on_btn_config_action() and on_combo_action_method().
+	  It's to configure the actions (reboot, shutdown and restart).
+	* New variables in "values" : Action action_shutdown, action_reboot,
+	  action_logout.
+	* New function values_destroy() to free all allocated informations
+	  in values.
+	* Bug fixed : values_init() is now called in main().
+	* In action_get_command, "" is returned if action->command==NULL.
+
+2006-08-22  Maxime Cheramy
+	* New submenu in systray menu : "immediate action"
+	* Cancel button is now active only if action is scheduled
+	* New function in values.c : values_init(), 
+	  values_synchronize_from_gui(guint prev_choice, guint curr_choice) 
+	  and void values_synchronize_to_gui(guint id);
+	* New files : timer.c timer.h
+	* New functions in timer.c : guint time_left();
+	  and gboolean timer_notify()
+	* Notification about time left before action is over
+	* New tooltip over the tray icon which contain time left information
+	* All values in values_load() are now initialized
+
+2006-08-22  Asher256
+	* French translation updated
+	* The first code of on_btn_start, to start or stop the action.
+	* combo_action, btn_start, combo_time_type, mnu_tray_cancel are
+	  now global (useful for on_btn_start).
+	* New variable in values.c : action_scheduled
+	* action_scheduled=TRUE|FALSE in "on_btn_start()"
+	* Load and save all values in the configuration files. The new
+	  functions are values_save() and values_load().
+	* Quit = Question("Are you sure you want to quit ?")
+	* New functions in values.c load_configuration(), save_configuration(),
+	  values_load(), saves_save(). It's to load and save the configuration
+	  file.
+
+2006-08-21  Asher256
+	* New function in action.c : run_action_custom_command(gchar *)
+	* New function in action.c to launch a command (with fork and exec)
+	* s/custom_command/command/ s/CUSTOM_COMMAND/COMMAND/
+	* btn_start handler (empty for while)
+	* It's possible now to valid and handle the preference dialog
+	* New files : values.c, values.h
+
+2006-08-21  Maxime Cheramy
+	* Bugfix : tray menu made gshutdown crash, it's now recoded directly in C
+	* The tray menu contain new items
+	* Add a struct which contain user choices
+
+2006-08-20  Asher256
+	* New function data_path(). It return the
+	  path of a data file.
+	* The dialogs (about and config) and main window are not 
+	  destroyed when it's closed (gtk_widget_hide_on_delete).
+	* All warnings removed
+	* New function in misc.c : void quit(int status)
+	* Custom command support in action.c
+
+2006-08-19  Asher256
+	* New widget : Configuration dialog
+	* French translation updated
+	* New requirement in README
+	* 64x64 icon to 48x48
+	* First action.c and action.h code.
+
+2006-08-18  Asher256
+	* libnotify added in configure.ac
+	* Atexit, SIGCHLD and SIGINT handling
+	* New argument in configure script : --enable-debug
+	* New files : misc.c, misc.h, template.c
+	* New function in misc.c : which()
+	* New entry in the menu : Edit -> Preferences
+	* Requirements in README
+
+2006-08-17  Asher256
+	* tray_menu.glade is now merged in gshutdown.glade
+	* New combo box in the interface : Time type.
+	* New callback "on_time_type". It Hide/Show some widgets and
+	  it save/restore some values.
+	* French translation updated
+	* Little memory leak fixed in gui_load_glade()
+	* New files: action.c, action.h
+	* New files : gdm.c, gdm.h
+	* The date is not saved when the "time type" is
+	  changed. It's useless for while.
+	* Some GtkWidget is changed with the true type of 
+	  the widget (to avoid the casting)
+	* Indirect authors added in AUTHORS
+
+2006-08-17  Maxime Cheramy
+	* Systray menu now uses a glade file
+
+2006-08-17  Asher256
+	* gshutdown.desktop
+	* Improvement of configure.ac and Makefile.am
+
+2006-08-16  Maxime Cheramy
+	* Systray support
+
+2006-08-16  Asher256
+	* All source code is now available in the svn repository
+
+2006-08-15  Asher256
+	* Automake/Autoconf scripts
+	* Gettext support
+	* First french translation
+
+2006-08-15  Maxime Cheramy
+	* First gui initialisation
+
+2006-08-14  Asher256
+	* First version of the graphical user interface

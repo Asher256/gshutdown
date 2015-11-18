@@ -1,0 +1,63 @@
+Urgent:
+- XFlush commented on eggtrayicon
+
+Tâches libres :
+- envoyer le fichier *.desktop à tous les traducteurs
+- hibernation
+- Voir du côté de 
+  /opt/kde/bin/dcop --all-users --all-sessions ksmserver ksmserver logout 0 2 0
+  pour KDE
+- Utiliser libSM ou libICE pour 'tuer' la session
+- Ajouter des icônes dans les items du combo box. Par exemple, 
+  dans arrêter l'ordinateur, afficher l'icône d'extinction de 
+  GNOME (la rouge), dans redémarrer afficher une autre icône, etc.
+  Même chose pour le combo qui contient le type du temps.
+
+Tâches actuelle de Maxime :
+- Support dbus pour executer des actions
+- Nouvelle action : Dans la liste déroulante des actions, ajouter la possibilité de
+  communiquer avec certains programmes Gtk+/GNOME comme par exemple
+  avec rhythmbox (l'équivalent de "Extras", disponible dans kshutdown)
+
+Tâches actuelle d'Asher256:
+- Dans la fonction pour tester les commandes, faire en sorte de tester le premier argument quand sudo est la commande
+- Mettre le code des arguments dans un fichier séparé de gui.c
+- Envoyer les arguments en ligne de commande (comme --action) avec bacon, dans le cas où gshutdown est déjà en marche
+- mettre tous le traitement des arguments dans un fichier à part
+- Annuler le message envoyé à KDM ou GDM quand le logout échoue.
+- Lancer l'action quand l'activié réseau est en dessous d'une limite
+- support enlightenment + gestionnaire de session e17
+- pour XFCE, tester :
+  echo POWEROFF | /opt/xfce4/libexec/xfsm-shutdown-helper
+
+Idées pour les futures versions :
+- Message pour informer l'utilisateur que la détection n'est pas bonne
+  quand on choisit Automatique dans la sélection manuelle.
+- Nouveau type de programmation : Dans "Select a time", ajouter la possibilité
+  de lancer une action après l'arrêt d'un processus.
+- Configuration : Parametrage de la durée de la notification visuelle
+- Feature : Un gestionnaire de plusieurs tâches programmées, qui ressemble à la
+  playlist de totem.
+- Support DBus : Permettre de controller certaines applications proprement.
+- Support DBus : Permettre le controle de gshutdown par une autre application
+  (annuler action en cours par exemple)
+- Centraliser l'exportation des values vers l'interface dans une seule fonction
+- Chercher comment faire pour ne pas appeler gnome 
+  session saver (ouvrir par exemple dynamiquement la 
+  bibliothèque de gnome pour utiliser une de ses 
+  fonctions).
+- Ajouter la possibilité de choisir "Attendre que le programme finisse (non recommandé)"
+  dans la frame qui permet de choisir le programme à lancer avant l'action.
+
+Déjà dans le mind map :
+- Fermer tel programme à telle heure.
+- Nouvelle action : "lock session" avec gnome-screensaver, xscreensaver
+  et kscreensaver.
+- Amélioration : Jouer un son quand le message d'avertissement final s'affiche. 
+  Ajouter aussi la possibilité de personnaliser ce son, de la desactiver, de cocher 
+  une case pour choisir s'il est répété...
+- Amélioration : Compléter automatiquement le nom du programme, quand l'utilisateur
+  l'entre dans la fenêtre pour configurer les actions.
+- Ajouter l'option --cancel, pour annuler l'action en cours ! 
+- Configuration : Permettre à l'utilisateur de choisir à quel moment il faut le prévenir
+  du nombre de secondes restantes.

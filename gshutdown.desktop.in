@@ -1,0 +1,16 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=GShutdown
+GenericName=Shutdown utility
+GenericName[sr]=Алат за гашење рачунара
+GenericName[sr@Latn]=Alat za gašenjeračunara
+Comment=An advanced shutdown utility which allows you to schedule the shutdown or the restart of your computer.
+Comment[sr]=Напредан алат који омогућава временско гашење, поновно покретање рачунара или одјаву.
+Comment[sr@Latn]=Napredan alat koji omogućava vremensko gašenje, ponovno pokretanje računara ili odjavu.
+Comment[fr]=Utilitaire pour programmer l'arrêt, le redémarrage de votre ordinateur ou la fermeture de la session actuelle.
+Exec=@prefix@/bin/gshutdown
+Icon=@prefix@/share/pixmaps/gshutdown.png
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=Application;Utility

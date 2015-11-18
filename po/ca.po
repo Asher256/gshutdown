@@ -1,0 +1,570 @@
+# Catalan translation of gshutdown, by RainCT <rainct@ubuntuwire.com>.
+# This file is distributed under the same license as the gshutdown package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gshutdown\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-06-24 15:50+0000\n"
+"PO-Revision-Date: 2007-06-12 17:57+0100\n"
+"Last-Translator: Siegfried-Angel Gevatter Pujals (RainCT) <siggi."
+"gevatter@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Catalan\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../src/args.c:48
+msgid "Launch the action after a certain delay : HH:MM"
+msgstr "Executa l'acció després d'un retard: HH:MM"
+
+#: ../src/args.c:49
+msgid "Launch the action at : HH:MM YYYY/MM/DD"
+msgstr "Executa l'acció a: HH:MM DD/MM/YYYY"
+
+#: ../src/args.c:50
+msgid "Launch the action now."
+msgstr "Executa l'acció ara."
+
+#: ../src/args.c:51
+msgid "Available actions are : \"shutdown\", \"reboot\" or \"logout\""
+msgstr "Accions disponibles són: \"shutdown\", \"reboot\" o \"logout\""
+
+#: ../src/args.c:52
+msgid "Minimize the window at startup."
+msgstr "Minimitza aquesta finestra a l'inici"
+
+#: ../src/args.c:64
+#, c-format
+msgid "Error when parsing the arguments...\n"
+msgstr "Hi ha hagut un error al tractar els arguments...\n"
+
+#: ../src/args.c:81
+#, c-format
+msgid ""
+"You cannot call --launch-after-delay, --launch-at or --launch-now at the "
+"same time.\n"
+msgstr ""
+"No pots cridar --launch-after-delay, --launch-at o --launch-now al mateix "
+"temps.\n"
+
+#: ../src/args.c:106
+#, c-format
+msgid ""
+"The authorized values in --action option are : shutdown, reboot or logout\n"
+msgstr ""
+"Els valors autoritzats per l'opció --action són: shutdown, reboot or logout\n"
+
+#: ../src/args.c:131
+#, c-format
+msgid "Error on parsing the content of %s : \"%s\".\n"
+msgstr "Error al tractar el contingut de %s: \"%s\".\n"
+
+#: ../src/callback.c:213
+msgid "Notification test"
+msgstr "Prova de notificació"
+
+#: ../src/callback.c:250 ../src/gui.c:248
+#, c-format
+msgid "%s%u hour"
+msgid_plural "%s%u hours"
+msgstr[0] "%s %u hora"
+msgstr[1] "%s %u hores"
+
+#: ../src/callback.c:256 ../src/gui.c:255
+#, c-format
+msgid "%s%u minute"
+msgid_plural "%s%u minutes"
+msgstr[0] "%s %u minut"
+msgstr[1] "%s %u minuts"
+
+#: ../src/callback.c:262 ../src/gui.c:261
+#, c-format
+msgid "%s%u second"
+msgid_plural "%s%u seconds"
+msgstr[0] "%s%u segon"
+msgstr[1] "%s%u segons"
+
+#: ../src/callback.c:386
+msgid "Computer is going to shutdown now !"
+msgstr "L'ordinador està a punt de tornar a ser iniciat!"
+
+#: ../src/callback.c:396
+msgid "Computer is going to reboot now !"
+msgstr "L'ordinador es re-iniciarà ara!"
+
+#: ../src/callback.c:406
+msgid "Current session will be terminated !"
+msgstr "La sessió actual serà finalitzada!"
+
+#: ../src/callback_main_window.c:71
+msgid ""
+"I'm here !\n"
+"\n"
+"Move over me to see the countdown."
+msgstr ""
+"Estic aquí!\n"
+"\n"
+"Passa el ratolí per sobre per veure el compte enrere."
+
+#: ../src/callback_main_window.c:86
+msgid "_Stop"
+msgstr "_Parar"
+
+#: ../src/callback_main_window.c:101
+msgid "Chosen time already exceeded"
+msgstr "L'hora triada ja ha passat"
+
+#: ../src/callback_main_window.c:136 ../src/gshutdown.glade:226
+msgid "_Start"
+msgstr "_Començar"
+
+#: ../src/callback_main_window.c:139 ../src/gui.c:575
+msgid "No action scheduled"
+msgstr "No hi ha cap tasca programada"
+
+#: ../src/callback_main_window.c:354
+msgid "Are you sure you want to quit ?"
+msgstr "Segur que vols sortir?"
+
+#: ../src/eggtrayicon.c:128
+msgid "Orientation"
+msgstr "Orientació"
+
+#: ../src/eggtrayicon.c:129
+msgid "The orientation of the tray."
+msgstr "L'orientació del la safata."
+
+#: ../src/gui.c:283
+msgid "At date and time"
+msgstr "A la data i hora"
+
+#: ../src/gui.c:284
+msgid "After a delay"
+msgstr "Després d'un retard"
+
+#: ../src/gui.c:285
+msgid "Now"
+msgstr "Ara"
+
+#: ../src/gui.c:295 ../src/gshutdown.glade:410
+msgid "Turn off the computer"
+msgstr "Apaga l'ordinador"
+
+#: ../src/gui.c:296 ../src/gshutdown.glade:419
+msgid "Restart computer"
+msgstr "Re-inicia l'ordinador"
+
+#: ../src/gui.c:297 ../src/gshutdown.glade:428
+msgid "End current session"
+msgstr "Finalitza la sessió actual"
+
+#: ../src/gui.c:301
+msgid "Extras"
+msgstr "Extres"
+
+#: ../src/gui.c:305
+msgid "Custom command..."
+msgstr "Ordres personalitzades..."
+
+#: ../src/gui.c:382
+msgid "Not detected!"
+msgstr "No s'ha detectat!"
+
+#: ../src/gui.c:474 ../src/gui.c:483
+msgid "Autodetect"
+msgstr "Autodetectar"
+
+#: ../src/gui.c:563 ../src/gui.c:603
+#, c-format
+msgid "%s doesn't exist.\n"
+msgstr "%s no existeix.\n"
+
+#: ../src/gui.c:639
+msgid "Shutdown"
+msgstr "Apaga"
+
+#: ../src/gui.c:640
+msgid "Reboot"
+msgstr "Re-inicia"
+
+#: ../src/gui.c:641
+msgid "Logout"
+msgstr "Tanca la sessió"
+
+#: ../src/gui.c:689
+msgid "Immediate action"
+msgstr "Acció immediata"
+
+#: ../src/gui.c:692
+msgid "Cancel current action"
+msgstr "Cancel·la l'acció actual"
+
+#: ../src/gui.c:722
+msgid "Are you sure you want to shutdown your computer now ?"
+msgstr "Estàs segur que vols apagar el teu ordinador ara?"
+
+#: ../src/gui.c:724
+msgid "Are you sure you want to restart your computer now ?"
+msgstr "Estàs segur que vols re-iniciar el teu ordinador ara?"
+
+#: ../src/gui.c:726
+msgid "Are you sure you want to logout from your session now ?"
+msgstr "Estàs segur que vols tancar la teva sessió ara?"
+
+#: ../src/gui.c:751
+msgid ""
+"GShutdown was unable to detect your display manager. Currently, GShutdown "
+"only supports GDM and KDM.\n"
+"\n"
+"Go to the configuration menu and specify the correct method to do that."
+msgstr ""
+"GShutdown no ha pogut detectar el teu \"display manager\". Actualment, "
+"GShutdown només suporta GDM i KDM.\n"
+"\n"
+"Ves al menú de configuració i especifica el mètode correcte per fer això."
+
+#: ../src/gui.c:756
+msgid ""
+"GShutdown was unable to detect your desktop. Currently, GShutdown only "
+"supports GNOME and KDE.\n"
+"\n"
+"Go to the configuration menu and specify the correct method to do that."
+msgstr ""
+"GShutdown no ha pogut detectar el teu escriptori. Actualment, GShutdown "
+"només suporta GNOME i KDE.\n"
+"\n"
+"Vés al menú de configuració i especifica el mètode correcte per fer això."
+
+#: ../src/main.c:176
+#, c-format
+msgid "The configuration cannot be loaded from %s."
+msgstr "No s'ha pogut carregar la configuració de %s."
+
+#: ../src/main.c:219
+#, c-format
+msgid "The configuration cannot be saved in %s."
+msgstr "No s'ha pogut guardar la configuració a %s."
+
+#: ../src/pconfirm.c:59
+msgid "Warning !"
+msgstr "Alerta!"
+
+#: ../src/pconfirm.c:77
+msgid "Warning ! Your computer is going to shutdown now !"
+msgstr "Alerta! El teu ordinador s'està preparant per apagar-se!"
+
+#: ../src/pconfirm.c:79
+msgid "Warning ! Your computer is going to restart now !"
+msgstr "Alerta! El teu ordinador s'està preparant per re-iniciar!"
+
+#: ../src/pconfirm.c:81
+msgid "Warning ! Your going to logout now !"
+msgstr "Alerta! La teva sessió es tancarà ara!"
+
+#: ../src/timer.c:151
+#, c-format
+msgid "The computer will be shut down in :"
+msgstr "L'ordinador s'apagarà en:"
+
+#: ../src/timer.c:153
+#, c-format
+msgid "The computer will be restarted in :"
+msgstr "L'ordinador es re-iniciarà en:"
+
+#: ../src/timer.c:155
+#, c-format
+msgid "Time before logout :"
+msgstr "Temps restant fins que es tanqui la sessió:"
+
+#: ../src/timer.c:157
+#, c-format
+msgid "Time before action :"
+msgstr "Temps fins a l'acció:"
+
+#: ../src/timer.c:165
+#, c-format
+msgid "%s %u minute"
+msgid_plural "%s %u minutes"
+msgstr[0] "%s %u minut"
+msgstr[1] "%s %u minuts"
+
+#: ../src/timer.c:171
+#, c-format
+msgid "%s and %u second"
+msgid_plural "%s and %u seconds"
+msgstr[0] "%s i %u segon"
+msgstr[1] "%s i %u segons"
+
+#: ../src/timer.c:176
+#, c-format
+msgid "%s %u hour"
+msgid_plural "%s %u hours"
+msgstr[0] "%s %u hora"
+msgstr[1] "%s %u hores"
+
+#: ../src/timer.c:180
+#, c-format
+msgid "%s and %u minute"
+msgid_plural "%s and %u minutes"
+msgstr[0] "%s i %u minut"
+msgstr[1] "%s i %u minuts"
+
+#: ../src/timer.c:184
+#, c-format
+msgid "%s %u day"
+msgid_plural "%s %u days"
+msgstr[0] "%s %u dia"
+msgstr[1] "%s %u dies"
+
+#: ../src/timer.c:188
+#, c-format
+msgid "%s and %u hour"
+msgid_plural "%s and %u hours"
+msgstr[0] "%s i %u hora"
+msgstr[1] "%s i %u hores"
+
+#: ../src/timer.c:202
+#, c-format
+msgid "%s %u second"
+msgid_plural "%s %u seconds"
+msgstr[0] "%s %u segon"
+msgstr[1] "%s %u segons"
+
+#: ../src/gshutdown.glade:25
+msgid "_File"
+msgstr "_Arxiu"
+
+#: ../src/gshutdown.glade:46
+msgid "_Edit"
+msgstr "_Modifica"
+
+#: ../src/gshutdown.glade:67
+msgid "_Help"
+msgstr "A_juda"
+
+#: ../src/gshutdown.glade:126
+msgid "Hour"
+msgstr "Hora"
+
+#: ../src/gshutdown.glade:152
+msgid "Minute"
+msgstr "Minut"
+
+#: ../src/gshutdown.glade:179
+msgid "_Actual time"
+msgstr "_Temps actual"
+
+#: ../src/gshutdown.glade:194
+msgid "Select a time"
+msgstr "Tria un data"
+
+#: ../src/gshutdown.glade:248
+msgid "An advanced shutdown utility"
+msgstr "Una avançada utilitat per apagar el teu ordinador"
+
+#: ../src/gshutdown.glade:267
+msgid ""
+"Alejandro Zarate (Spanish)\n"
+"Alexander Sjögren (Swedish)\n"
+"Andrea Carnaroli (Italian)\n"
+"Andrew V. Sichevoi (Russian)\n"
+"Bill Heldorf Soerensen (Danish)\n"
+"Dóra Kováts (Hungarian)\n"
+"GShutdown Team (French)\n"
+"Kristopher (Polish)\n"
+"Miloš Popović (Serbian)\n"
+"Øyvind Pedersen (Norwegian)\n"
+"Rolando Emanuel Lopes Pereira (Portuguese)\n"
+"Rolf Loire (German)\n"
+"Siegfried Gevatter (Catalan)"
+msgstr ""
+"Alejandro Zarate (Castellà)\n"
+"Alexander Sjögren (Suec)\n"
+"Andrea Carnaroli (Italià)\n"
+"Andrew V. Sichevoi (Rus)\n"
+"Bill Heldorf Soerensen (Danès)\n"
+"Dóra Kováts (Hongarès)\n"
+"GShutdown Team (Francès)\n"
+"Kristopher (Polonès)\n"
+"Miloš Popović (Serbi)\n"
+"Øyvind Pedersen (Noruec)\n"
+"Rolando Emanuel Lopes Pereira (Portuguès)\n"
+"Rolf Loire (Alemany)\n"
+"Siegfried-Angel Gevatter Pujals (Català)"
+
+#: ../src/gshutdown.glade:324
+msgid "Select a method :"
+msgstr "Tria un mètode:"
+
+#: ../src/gshutdown.glade:343
+msgid "Custom command"
+msgstr "Ordres personalitzades"
+
+#: ../src/gshutdown.glade:386
+msgid "Specify the method manually"
+msgstr "Especifica el mètode manualment"
+
+#: ../src/gshutdown.glade:398
+msgid "Autodetect the method (recommended)"
+msgstr "Detecta automàticament el mètode (recomanat)"
+
+#: ../src/gshutdown.glade:446
+msgid "Launch a command before the action"
+msgstr "Executa una ordre abans de l'acció"
+
+#: ../src/gshutdown.glade:488
+msgid "Actions"
+msgstr "Accions"
+
+#: ../src/gshutdown.glade:520
+msgid "Always"
+msgstr "Sempre"
+
+#: ../src/gshutdown.glade:530
+msgid "If active"
+msgstr "Si està actiu"
+
+#: ../src/gshutdown.glade:540
+msgid "Never"
+msgstr "Mai"
+
+#: ../src/gshutdown.glade:553
+msgid "Iconify when the action is started"
+msgstr "Mostra una icona quan l'acció hagi començat"
+
+#: ../src/gshutdown.glade:567
+msgid "Show system tray icon"
+msgstr "Mostra una icona a l'àrea de notificació"
+
+#: ../src/gshutdown.glade:595
+msgid "Display warning message _before action"
+msgstr "Mostra un missatge d'avís abans"
+
+#: ../src/gshutdown.glade:604
+msgid "T_est"
+msgstr "_Prova"
+
+#: ../src/gshutdown.glade:614
+msgid "_Customize notifications time"
+msgstr "_Personalitza la data de les notificacions"
+
+#: ../src/gshutdown.glade:629
+msgid "Notifications"
+msgstr "Notificacions"
+
+#: ../src/gshutdown.glade:652
+msgid "Misc"
+msgstr "Divers"
+
+#: ../src/gshutdown.glade:675 ../src/gshutdown.glade:772
+#: ../src/gshutdown.glade:858 ../src/gshutdown.glade:944
+#: ../src/gshutdown.glade:1114
+msgid "gtk-close"
+msgstr "gtk-close"
+
+#: ../src/gshutdown.glade:705
+msgid "Enter the command :"
+msgstr "Introdueix l'ordre:"
+
+#: ../src/gshutdown.glade:805
+msgid "<b>Display manager :</b>"
+msgstr "<b>\"Display manager:\"</b>"
+
+#: ../src/gshutdown.glade:817
+msgid "<b>Desktop :</b>"
+msgstr "<b>Escriptori:</b>"
+
+#: ../src/gshutdown.glade:872
+msgid "Select the method manually"
+msgstr "Sel·leciona el mètode manualment"
+
+#: ../src/gshutdown.glade:889
+msgid ""
+"Here, you can manually specify what is your desktop and display manager if "
+"GShutdown was unable to detect it itself."
+msgstr ""
+"Aquí, pots especificar manualment quin és el teu escriptori i \"display "
+"manager\" si GShutdown no ha pogut detectar-lo automàticament."
+
+#: ../src/gshutdown.glade:897
+msgid "Desktop :"
+msgstr "Escriptori:"
+
+#: ../src/gshutdown.glade:916
+msgid "Display manager :"
+msgstr "\"Display manager\":"
+
+#: ../src/gshutdown.glade:983
+msgid "gtk-remove"
+msgstr "gtk-remove"
+
+#: ../src/gshutdown.glade:1027
+msgid "h"
+msgstr "h"
+
+#: ../src/gshutdown.glade:1048
+msgid "min"
+msgstr "min"
+
+#: ../src/gshutdown.glade:1069
+msgid "s"
+msgstr "s"
+
+#: ../src/gshutdown.glade:1078
+msgid "gtk-add"
+msgstr "gtk-add"
+
+#: ../src/gshutdown.glade:1094
+msgid "At time :"
+msgstr "A l'hora:"
+
+#~ msgid "%s 1 minute"
+#~ msgstr "%s 1 minut"
+
+#~ msgid "%s 1 hour"
+#~ msgstr "%s 1 hora"
+
+#, fuzzy
+#~ msgid "%s : %u seconds"
+#~ msgstr "%s and %u seconds"
+
+#, fuzzy
+#~ msgid "%s%u hourz"
+#~ msgid_plural "%s%u hourzs"
+#~ msgstr[0] "%s %u hores"
+#~ msgstr[1] "%s %u hores"
+
+#~ msgid "%s%u minute%s"
+#~ msgstr "%s %u minut%s"
+
+#~ msgid "%s%u second%s"
+#~ msgstr "%s and %u second%s"
+
+#, fuzzy
+#~ msgid "Not implemented yet!"
+#~ msgstr "Encara no s'ha implementat!"
+
+#~ msgid "Time from now"
+#~ msgstr "Temps restant"
+
+#, fuzzy
+#~ msgid "Launch the action after a"
+#~ msgstr "Executa una ordre abans de l'acció"
+
+#~ msgid ""
+#~ "Siegfried Gevatter (Catalan)\n"
+#~ "GShutdown Team (French)"
+#~ msgstr ""
+#~ "Siegfried Gevatter (Català)\n"
+#~ "Equip del GShutdown (Francès)"
+
+#~ msgid "Time before action : %u seconds"
+#~ msgstr "Temps fins a l'acció: %u segons"
+
+#~ msgid "Notifications date"
+#~ msgstr "Data de les notificacions"

@@ -1,0 +1,548 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gshutdown\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-06-24 15:50+0000\n"
+"PO-Revision-Date: 2007-06-10 23:39-0000\n"
+"Last-Translator: Asher256 <contact@asher256.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Norwegian Bokmal\n"
+"X-Poedit-Country: NORWAY\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: ../src/args.c:48
+msgid "Launch the action after a certain delay : HH:MM"
+msgstr "Kjør handlingen etter en viss tid : HH:MM"
+
+#: ../src/args.c:49
+msgid "Launch the action at : HH:MM YYYY/MM/DD"
+msgstr "Kjører handlingen : HH:MM YYYY/MM/DD"
+
+#: ../src/args.c:50
+msgid "Launch the action now."
+msgstr "Kjør handlingen nå."
+
+#: ../src/args.c:51
+msgid "Available actions are : \"shutdown\", \"reboot\" or \"logout\""
+msgstr "Tilgjengelige handlinger : \"shutdown\", \"reboot\" eller \"logout\""
+
+#: ../src/args.c:52
+msgid "Minimize the window at startup."
+msgstr "Minimer vinduet når datamaskinen slår seg på."
+
+#: ../src/args.c:64
+#, c-format
+msgid "Error when parsing the arguments...\n"
+msgstr ""
+
+#: ../src/args.c:81
+#, c-format
+msgid ""
+"You cannot call --launch-after-delay, --launch-at or --launch-now at the "
+"same time.\n"
+msgstr ""
+"Du kan ikke --launch-after-delay, --launch-at or --launch-now at the same "
+"time.\n"
+
+#: ../src/args.c:106
+#, c-format
+msgid ""
+"The authorized values in --action option are : shutdown, reboot or logout\n"
+msgstr ""
+"autoriserte verdier i --action valg er : shutdown, reboot eller logout\n"
+
+#: ../src/args.c:131
+#, c-format
+msgid "Error on parsing the content of %s : \"%s\".\n"
+msgstr ""
+
+#: ../src/callback.c:213
+msgid "Notification test"
+msgstr "Påminnelses test"
+
+#: ../src/callback.c:250 ../src/gui.c:248
+#, fuzzy, c-format
+msgid "%s%u hour"
+msgid_plural "%s%u hours"
+msgstr[0] "%s %u timer"
+msgstr[1] "%s %u timer"
+
+#: ../src/callback.c:256 ../src/gui.c:255
+#, fuzzy, c-format
+msgid "%s%u minute"
+msgid_plural "%s%u minutes"
+msgstr[0] "%s %u minutter%s"
+msgstr[1] "%s %u minutter%s"
+
+#: ../src/callback.c:262 ../src/gui.c:261
+#, fuzzy, c-format
+msgid "%s%u second"
+msgid_plural "%s%u seconds"
+msgstr[0] "%s %u sekunder%s"
+msgstr[1] "%s %u sekunder%s"
+
+#: ../src/callback.c:386
+msgid "Computer is going to shutdown now !"
+msgstr "Datamaskinen slår seg av nå !"
+
+#: ../src/callback.c:396
+msgid "Computer is going to reboot now !"
+msgstr "Datamaskinen omstarter nå !"
+
+#: ../src/callback.c:406
+msgid "Current session will be terminated !"
+msgstr "Sesjonen vil bli avsluttet !"
+
+#: ../src/callback_main_window.c:71
+msgid ""
+"I'm here !\n"
+"\n"
+"Move over me to see the countdown."
+msgstr ""
+"Jeg er her !\n"
+"\n"
+"Flytt meg over til å se nedtellingen."
+
+#: ../src/callback_main_window.c:86
+msgid "_Stop"
+msgstr "_Stopp"
+
+#: ../src/callback_main_window.c:101
+msgid "Chosen time already exceeded"
+msgstr "Valgt tid er allerede overskridet"
+
+#: ../src/callback_main_window.c:136 ../src/gshutdown.glade:226
+msgid "_Start"
+msgstr "_Start"
+
+#: ../src/callback_main_window.c:139 ../src/gui.c:575
+msgid "No action scheduled"
+msgstr "Ingen handlinger planlaggt"
+
+#: ../src/callback_main_window.c:354
+msgid "Are you sure you want to quit ?"
+msgstr "Er du sikker på at du vil avslutte ?"
+
+#: ../src/eggtrayicon.c:128
+msgid "Orientation"
+msgstr "Orientering"
+
+#: ../src/eggtrayicon.c:129
+msgid "The orientation of the tray."
+msgstr "orienteringen av tray ikonet."
+
+#: ../src/gui.c:283
+msgid "At date and time"
+msgstr "På dato og time"
+
+#: ../src/gui.c:284
+msgid "After a delay"
+msgstr "Etter utsettelsen"
+
+#: ../src/gui.c:285
+msgid "Now"
+msgstr "Nå"
+
+#: ../src/gui.c:295 ../src/gshutdown.glade:410
+msgid "Turn off the computer"
+msgstr "Slå av datamaskinen"
+
+#: ../src/gui.c:296 ../src/gshutdown.glade:419
+msgid "Restart computer"
+msgstr "Omstart datamaskin"
+
+#: ../src/gui.c:297 ../src/gshutdown.glade:428
+msgid "End current session"
+msgstr "Slutt sesjon"
+
+#: ../src/gui.c:301
+msgid "Extras"
+msgstr "Ekstra"
+
+#: ../src/gui.c:305
+msgid "Custom command..."
+msgstr "Egen kommando..."
+
+#: ../src/gui.c:382
+msgid "Not detected!"
+msgstr "Ikke funnet!"
+
+#: ../src/gui.c:474 ../src/gui.c:483
+msgid "Autodetect"
+msgstr "Automatisk oppdaging"
+
+#: ../src/gui.c:563 ../src/gui.c:603
+#, c-format
+msgid "%s doesn't exist.\n"
+msgstr "%s eksisterer ikke.\n"
+
+#: ../src/gui.c:639
+msgid "Shutdown"
+msgstr "Slå av"
+
+#: ../src/gui.c:640
+msgid "Reboot"
+msgstr "Omstart"
+
+#: ../src/gui.c:641
+msgid "Logout"
+msgstr "Logg ut"
+
+#: ../src/gui.c:689
+msgid "Immediate action"
+msgstr "Umiddelbar handling"
+
+#: ../src/gui.c:692
+msgid "Cancel current action"
+msgstr "Avslutt handling"
+
+#: ../src/gui.c:722
+msgid "Are you sure you want to shutdown your computer now ?"
+msgstr "Er du sikker på at du vil slå av datamaskinen din nå ?"
+
+#: ../src/gui.c:724
+msgid "Are you sure you want to restart your computer now ?"
+msgstr "Er du sikker på at du vil omstarte datamaskinen din nå ?"
+
+#: ../src/gui.c:726
+msgid "Are you sure you want to logout from your session now ?"
+msgstr "Er du sikker på at du vil logge ut av sesjonen din nå ?"
+
+#: ../src/gui.c:751
+msgid ""
+"GShutdown was unable to detect your display manager. Currently, GShutdown "
+"only supports GDM and KDM.\n"
+"\n"
+"Go to the configuration menu and specify the correct method to do that."
+msgstr ""
+
+#: ../src/gui.c:756
+msgid ""
+"GShutdown was unable to detect your desktop. Currently, GShutdown only "
+"supports GNOME and KDE.\n"
+"\n"
+"Go to the configuration menu and specify the correct method to do that."
+msgstr ""
+
+#: ../src/main.c:176
+#, c-format
+msgid "The configuration cannot be loaded from %s."
+msgstr "Konfigurasjonen kan ikke ble laddet ifra %s."
+
+#: ../src/main.c:219
+#, c-format
+msgid "The configuration cannot be saved in %s."
+msgstr "Konfigurasjonen kan ikke bli lagret i %s."
+
+#: ../src/pconfirm.c:59
+msgid "Warning !"
+msgstr "Advarsel !"
+
+#: ../src/pconfirm.c:77
+msgid "Warning ! Your computer is going to shutdown now !"
+msgstr "Advarsel ! Datamaskinen din slår seg av nå !"
+
+#: ../src/pconfirm.c:79
+msgid "Warning ! Your computer is going to restart now !"
+msgstr "Advarsel ! Datamaskinen din omstartes nå !"
+
+#: ../src/pconfirm.c:81
+msgid "Warning ! Your going to logout now !"
+msgstr "Advarsel ! Du blir logget ut nå !"
+
+#: ../src/timer.c:151
+#, c-format
+msgid "The computer will be shut down in :"
+msgstr "Datamaskinen vil bli slådd av innen : "
+
+#: ../src/timer.c:153
+#, c-format
+msgid "The computer will be restarted in :"
+msgstr "Datamaskinen vil bli omstartet innen :"
+
+#: ../src/timer.c:155
+#, c-format
+msgid "Time before logout :"
+msgstr "Tid før ut loggingen :"
+
+#: ../src/timer.c:157
+#, c-format
+msgid "Time before action :"
+msgstr "Tid før handlingen :"
+
+#: ../src/timer.c:165
+#, fuzzy, c-format
+msgid "%s %u minute"
+msgid_plural "%s %u minutes"
+msgstr[0] "%s %u minutter"
+msgstr[1] "%s %u minutter"
+
+#: ../src/timer.c:171
+#, fuzzy, c-format
+msgid "%s and %u second"
+msgid_plural "%s and %u seconds"
+msgstr[0] "%s og %u sekunder"
+msgstr[1] "%s og %u sekunder"
+
+#: ../src/timer.c:176
+#, fuzzy, c-format
+msgid "%s %u hour"
+msgid_plural "%s %u hours"
+msgstr[0] "%s %u timer"
+msgstr[1] "%s %u timer"
+
+#: ../src/timer.c:180
+#, fuzzy, c-format
+msgid "%s and %u minute"
+msgid_plural "%s and %u minutes"
+msgstr[0] "%s og %u minutter"
+msgstr[1] "%s og %u minutter"
+
+#: ../src/timer.c:184
+#, fuzzy, c-format
+msgid "%s %u day"
+msgid_plural "%s %u days"
+msgstr[0] "%s %u dag"
+msgstr[1] "%s %u dag"
+
+#: ../src/timer.c:188
+#, fuzzy, c-format
+msgid "%s and %u hour"
+msgid_plural "%s and %u hours"
+msgstr[0] "%s og %u timer"
+msgstr[1] "%s og %u timer"
+
+#: ../src/timer.c:202
+#, fuzzy, c-format
+msgid "%s %u second"
+msgid_plural "%s %u seconds"
+msgstr[0] "%s %u sekunder%s"
+msgstr[1] "%s %u sekunder%s"
+
+#: ../src/gshutdown.glade:25
+msgid "_File"
+msgstr "_Fil"
+
+#: ../src/gshutdown.glade:46
+msgid "_Edit"
+msgstr "_Rediger"
+
+#: ../src/gshutdown.glade:67
+msgid "_Help"
+msgstr "_Hjelp"
+
+#: ../src/gshutdown.glade:126
+msgid "Hour"
+msgstr "Timer"
+
+#: ../src/gshutdown.glade:152
+msgid "Minute"
+msgstr "Minutter"
+
+#: ../src/gshutdown.glade:179
+msgid "_Actual time"
+msgstr "_Egentlig tid"
+
+#: ../src/gshutdown.glade:194
+msgid "Select a time"
+msgstr "Velg tid"
+
+#: ../src/gshutdown.glade:248
+msgid "An advanced shutdown utility"
+msgstr "avansert avsluttnings verktøy"
+
+#: ../src/gshutdown.glade:267
+msgid ""
+"Alejandro Zarate (Spanish)\n"
+"Alexander Sjögren (Swedish)\n"
+"Andrea Carnaroli (Italian)\n"
+"Andrew V. Sichevoi (Russian)\n"
+"Bill Heldorf Soerensen (Danish)\n"
+"Dóra Kováts (Hungarian)\n"
+"GShutdown Team (French)\n"
+"Kristopher (Polish)\n"
+"Miloš Popović (Serbian)\n"
+"Øyvind Pedersen (Norwegian)\n"
+"Rolando Emanuel Lopes Pereira (Portuguese)\n"
+"Rolf Loire (German)\n"
+"Siegfried Gevatter (Catalan)"
+msgstr ""
+
+#: ../src/gshutdown.glade:324
+msgid "Select a method :"
+msgstr "Velg en metode :"
+
+#: ../src/gshutdown.glade:343
+msgid "Custom command"
+msgstr "Egen kommando"
+
+#: ../src/gshutdown.glade:386
+msgid "Specify the method manually"
+msgstr "Spesifisere metoden manuelt"
+
+#: ../src/gshutdown.glade:398
+msgid "Autodetect the method (recommended)"
+msgstr "Automatisert metode (anbefalt)"
+
+#: ../src/gshutdown.glade:446
+msgid "Launch a command before the action"
+msgstr "Kjør en kommando før selve handlingen"
+
+#: ../src/gshutdown.glade:488
+msgid "Actions"
+msgstr "Handlinger"
+
+#: ../src/gshutdown.glade:520
+msgid "Always"
+msgstr "Alltid"
+
+#: ../src/gshutdown.glade:530
+msgid "If active"
+msgstr "Om aktiv"
+
+#: ../src/gshutdown.glade:540
+msgid "Never"
+msgstr "Aldri"
+
+#: ../src/gshutdown.glade:553
+msgid "Iconify when the action is started"
+msgstr "Vis når handlingen er startet"
+
+#: ../src/gshutdown.glade:567
+msgid "Show system tray icon"
+msgstr "Vis minimert ikon"
+
+#: ../src/gshutdown.glade:595
+msgid "Display warning message _before action"
+msgstr "Vis advarsel melding _før handling"
+
+#: ../src/gshutdown.glade:604
+msgid "T_est"
+msgstr "T_est"
+
+#: ../src/gshutdown.glade:614
+msgid "_Customize notifications time"
+msgstr "_Egen notert tid"
+
+#: ../src/gshutdown.glade:629
+msgid "Notifications"
+msgstr "Meldinger"
+
+#: ../src/gshutdown.glade:652
+msgid "Misc"
+msgstr "Annet"
+
+#: ../src/gshutdown.glade:675 ../src/gshutdown.glade:772
+#: ../src/gshutdown.glade:858 ../src/gshutdown.glade:944
+#: ../src/gshutdown.glade:1114
+msgid "gtk-close"
+msgstr ""
+
+#: ../src/gshutdown.glade:705
+msgid "Enter the command :"
+msgstr "Skriv inn kommando :"
+
+#: ../src/gshutdown.glade:805
+msgid "<b>Display manager :</b>"
+msgstr "<b>Visnings instillinger :</b>"
+
+#: ../src/gshutdown.glade:817
+msgid "<b>Desktop :</b>"
+msgstr "<b>Skrivebord :</b>"
+
+#: ../src/gshutdown.glade:872
+msgid "Select the method manually"
+msgstr "Velg en metode manuelt"
+
+#: ../src/gshutdown.glade:889
+msgid ""
+"Here, you can manually specify what is your desktop and display manager if "
+"GShutdown was unable to detect it itself."
+msgstr ""
+
+#: ../src/gshutdown.glade:897
+msgid "Desktop :"
+msgstr "Skrivebord :"
+
+#: ../src/gshutdown.glade:916
+msgid "Display manager :"
+msgstr "Visnings instillinger :"
+
+#: ../src/gshutdown.glade:983
+msgid "gtk-remove"
+msgstr ""
+
+#: ../src/gshutdown.glade:1027
+msgid "h"
+msgstr "t"
+
+#: ../src/gshutdown.glade:1048
+msgid "min"
+msgstr "min"
+
+#: ../src/gshutdown.glade:1069
+msgid "s"
+msgstr "s"
+
+#: ../src/gshutdown.glade:1078
+msgid "gtk-add"
+msgstr ""
+
+#: ../src/gshutdown.glade:1094
+msgid "At time :"
+msgstr "Når tiden er :"
+
+#, fuzzy
+#~ msgid "%s%u hours"
+#~ msgstr "%s %u timer"
+
+#, fuzzy
+#~ msgid "%s%u minutes"
+#~ msgstr "%s %u minutter%s"
+
+#, fuzzy
+#~ msgid "%s%u seconds"
+#~ msgstr "%s %u sekunder%s"
+
+#~ msgid "%s 1 minute"
+#~ msgstr "%s 1 minutt"
+
+#~ msgid "%s and 1 second"
+#~ msgstr "%s og 1 sekund"
+
+#~ msgid "%s 1 hour"
+#~ msgstr "%s 1 time"
+
+#~ msgid "%s and 1 minute"
+#~ msgstr "%s og 1 minutt"
+
+#~ msgid "%s %u days"
+#~ msgstr "%s %u dager"
+
+#~ msgid "%s and 1 hour"
+#~ msgstr "%s og 1 time"
+
+#, fuzzy
+#~ msgid "%s : %u second"
+#~ msgstr "%s : %u sekunder"
+
+#~ msgid "%s : %u seconds"
+#~ msgstr "%s : %u sekunder"
+
+#, fuzzy
+#~ msgid "%s%u hourz"
+#~ msgid_plural "%s%u hourzs"
+#~ msgstr[0] "%s %u timer"
+#~ msgstr[1] "%s %u timer"
+
+#~ msgid "%s%u minute%s"
+#~ msgstr "%s %u minutter%s"
+
+#~ msgid "%s%u second%s"
+#~ msgstr "%s %u sekunder%s"
+
+#~ msgid "Not implemented yet!"
+#~ msgstr "Ikke enda implementert!"

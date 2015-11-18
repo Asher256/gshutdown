@@ -1,0 +1,17 @@
+*.gmo
+*.o
+src/gshutdown
+Makefile
+PKGBUILD
+autopackage/default.apspec
+config.h
+config.log
+config.status
+gshutdown.desktop
+man/Makefile
+po/Makefile
+po/Makefile.in
+po/POTFILES
+src/.deps/
+src/Makefile
+stamp-h1

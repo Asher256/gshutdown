@@ -1,0 +1,313 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gshutdown\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-06-24 15:50+0000\n"
+"PO-Revision-Date: 2015-10-24 13:53+0800\n"
+"Last-Translator: ryan <daf3707@gmail.com>\n"
+"Language-Team: ryan <daf3707@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+msgid "%s doesn't exist.\n"
+msgstr "%s 不存在.\n"
+
+msgid "<b>Desktop :</b>"
+msgstr "<b>桌面 :</b>"
+
+msgid "<b>Display manager :</b>"
+msgstr "<b>显示管理器 :</b>"
+
+msgid "Actions"
+msgstr "动作"
+
+msgid "After a delay"
+msgstr "一个延迟之后"
+
+msgid "Always"
+msgstr "总是"
+
+msgid "An advanced shutdown utility"
+msgstr "一个先进的关机程序"
+
+msgid "Are you sure you want to logout from your session now ?"
+msgstr "你确定要注销吗?"
+
+msgid "Are you sure you want to quit ?"
+msgstr "你确定要退出吗?"
+
+msgid "Are you sure you want to restart your computer now ?"
+msgstr "你确定你想要现在重新启动计算机？"
+
+msgid "Are you sure you want to shutdown your computer now ?"
+msgstr "你确定你想要现在关闭你的计算机？"
+
+msgid "At date and time"
+msgstr "在指定的日期和时间"
+
+msgid "At time :"
+msgstr "在指定时间:"
+
+msgid "Autodetect"
+msgstr "自动检测"
+
+msgid "Autodetect the method (recommended)"
+msgstr "自动检测环境（推荐）"
+
+msgid "Available actions are : \"shutdown\", \"reboot\" or \"logout\""
+msgstr "可用的操作有:“关机”,\"重启\" 或“注销”"
+
+msgid "Cancel current action"
+msgstr "取消当前操作"
+
+msgid "Chosen time already exceeded"
+msgstr "选择的时间已经过去"
+
+msgid "Computer is going to reboot now !"
+msgstr "现在电脑将要重启！"
+
+msgid "Computer is going to shutdown now !"
+msgstr "现在电脑将要关机！"
+
+msgid "Current session will be terminated !"
+msgstr "当前会话将被终止！"
+
+msgid "Custom command"
+msgstr "自定义命令"
+
+msgid "Custom command..."
+msgstr "自定义命令…"
+
+msgid "Desktop :"
+msgstr "桌面:"
+
+msgid "Display manager :"
+msgstr "显示管理器:"
+
+msgid "Display warning message _before action"
+msgstr "在指定的时间之后显示警告信息"
+
+msgid "End current session"
+msgstr "注销"
+
+msgid "Enter the command :"
+msgstr "输入命令:"
+
+msgid "Error on parsing the content of %s : \"%s\".\n"
+msgstr "%s : 解析 %s 时出现错误. \n"
+
+msgid "Error when parsing the arguments...\n"
+msgstr "分析参数时出现错误...\n"
+
+msgid "Extras"
+msgstr "附加功能"
+
+msgid ""
+"GShutdown was unable to detect your desktop. Currently, GShutdown only "
+"supports GNOME and KDE.\n"
+"\n"
+"Go to the configuration menu and specify the correct method to do that."
+msgstr ""
+"GShutdown无法检测到您的桌面。目前，GShutdown只支持GNOME和KDE。\n"
+"\n"
+"转到配置菜单，并指定正确的值。"
+
+msgid ""
+"GShutdown was unable to detect your display manager. Currently, GShutdown "
+"only supports GDM and KDM.\n"
+"\n"
+"Go to the configuration menu and specify the correct method to do that."
+msgstr ""
+"GShutdown无法检测到您的显示管理器。目前，GShutdown只支持GDM和KDM。\n"
+"\n"
+"转到配置菜单，并指定正确的值。"
+
+msgid ""
+"Here, you can manually specify what is your desktop and display manager if "
+"GShutdown was unable to detect it itself."
+msgstr ""
+"在这里，如果GShutdown无法自动探测出你的桌面和显示管理器类型，你可以手动指定它"
+"们。"
+
+msgid "Hour"
+msgstr "小时"
+
+msgid ""
+"I'm here !\n"
+"\n"
+"Move over me to see the countdown."
+msgstr ""
+"我在这里!\n"
+"\n"
+"移动过来查看倒计时."
+
+msgid "Iconify when the action is started"
+msgstr "当开始动作时缩放到托盘图标"
+
+msgid "If active"
+msgstr "当执行动作时"
+
+msgid "Immediate action"
+msgstr "立刻行动"
+
+msgid "Launch a command before the action"
+msgstr "在行动之前启动一个命令"
+
+msgid "Launch the action after a certain delay : HH:MM"
+msgstr "在:  HH:MM 延迟之后采取动作"
+
+msgid "Launch the action at : HH:MM YYYY/MM/DD"
+msgstr "在: HH:MM YYYY/MM/DD 之后启动"
+
+msgid "Launch the action now."
+msgstr "现在执行动作."
+
+msgid "Logout"
+msgstr "注销"
+
+msgid "Minimize the window at startup."
+msgstr "启动时最小化窗口."
+
+msgid "Minute"
+msgstr "分钟"
+
+msgid "Misc"
+msgstr "杂项"
+
+msgid "Never"
+msgstr "总是"
+
+msgid "No action scheduled"
+msgstr "没有预定的动作"
+
+msgid "Not detected!"
+msgstr "没有检测出！"
+
+msgid "Notification test"
+msgstr "提示信息测试"
+
+msgid "Notifications"
+msgstr "提示信息"
+
+msgid "Now"
+msgstr "现在"
+
+msgid "Orientation"
+msgstr "方向"
+
+msgid "Reboot"
+msgstr "重启"
+
+msgid "Restart computer"
+msgstr "重启"
+
+msgid "Select a method :"
+msgstr "选择一个方式："
+
+msgid "Select a time"
+msgstr "选择一个时间"
+
+msgid "Select the method manually"
+msgstr "手动选择方法"
+
+msgid "Show system tray icon"
+msgstr "显示系统托盘图标"
+
+msgid "Shutdown"
+msgstr "关机"
+
+msgid "Specify the method manually"
+msgstr "手动指定环境"
+
+msgid "T_est"
+msgstr "测试(_e)"
+
+msgid ""
+"The authorized values in --action option are : shutdown, reboot or logout\n"
+msgstr "参数 --action 可选项有：shutdown, reboot 或者 logout\n"
+
+msgid "The computer will be restarted in :"
+msgstr "计算机将在指定时间后重启:"
+
+msgid "The computer will be shut down in :"
+msgstr "计算机将在指定时间后关闭:"
+
+msgid "The configuration cannot be loaded from %s."
+msgstr "不能从 %s 加载配置."
+
+msgid "The configuration cannot be saved in %s."
+msgstr "该配置不能被保存在 %s ."
+
+msgid "The orientation of the tray."
+msgstr "托盘方向"
+
+msgid "Time before action :"
+msgstr "指定时间之后动作："
+
+msgid "Time before logout :"
+msgstr "指定时间之后注销"
+
+msgid "Turn off the computer"
+msgstr "关机"
+
+msgid "Warning !"
+msgstr "警告！"
+
+msgid "Warning ! Your computer is going to restart now !"
+msgstr "警告！你的计算机将要重启！"
+
+msgid "Warning ! Your computer is going to shutdown now !"
+msgstr "警告！你的计算机将要关机！"
+
+msgid "Warning ! Your going to logout now !"
+msgstr "警告！你将要注销！"
+
+msgid ""
+"You cannot call --launch-after-delay, --launch-at or --launch-now at the "
+"same time.\n"
+msgstr ""
+"你不能同时使用 --launch-after-delay, --launch-at 或者 --launch-now 选项.\n"
+
+msgid "_Actual time"
+msgstr "当前时间"
+
+msgid "_Customize notifications time"
+msgstr "自定义提示时间"
+
+msgid "_Edit"
+msgstr "编辑(_E)"
+
+msgid "_File"
+msgstr "文件(_F)"
+
+msgid "_Help"
+msgstr "帮助(_H)"
+
+msgid "_Start"
+msgstr "开始执行(_S)"
+
+msgid "_Stop"
+msgstr "停止(_S)"
+
+msgid "gtk-add"
+msgstr "gtk-add"
+
+msgid "gtk-close"
+msgstr "gtk-close"
+
+msgid "gtk-remove"
+msgstr "gtk-remove"
+
+msgid "h"
+msgstr "时"
+
+msgid "min"
+msgstr "分"
+
+msgid "s"
+msgstr "秒"

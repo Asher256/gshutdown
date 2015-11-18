@@ -1,0 +1,17 @@
+src/action.c
+src/callback.c
+src/gdm.c
+src/gui.c
+src/main.c
+src/misc.c
+src/pconfirm.c
+src/timer.c
+src/values.c
+src/debug.c
+src/gshutdown.glade
+src/args.c
+src/bacon.c
+src/binreloc.c
+src/callback_main_window.c
+src/detectwm.c
+src/eggtrayicon.c

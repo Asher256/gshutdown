@@ -1,0 +1,494 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-06-24 15:50+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: ../src/args.c:48
+msgid "Launch the action after a certain delay : HH:MM"
+msgstr ""
+
+#: ../src/args.c:49
+msgid "Launch the action at : HH:MM YYYY/MM/DD"
+msgstr ""
+
+#: ../src/args.c:50
+msgid "Launch the action now."
+msgstr ""
+
+#: ../src/args.c:51
+msgid "Available actions are : \"shutdown\", \"reboot\" or \"logout\""
+msgstr ""
+
+#: ../src/args.c:52
+msgid "Minimize the window at startup."
+msgstr ""
+
+#: ../src/args.c:64
+#, c-format
+msgid "Error when parsing the arguments...\n"
+msgstr ""
+
+#: ../src/args.c:81
+#, c-format
+msgid ""
+"You cannot call --launch-after-delay, --launch-at or --launch-now at the "
+"same time.\n"
+msgstr ""
+
+#: ../src/args.c:106
+#, c-format
+msgid ""
+"The authorized values in --action option are : shutdown, reboot or logout\n"
+msgstr ""
+
+#: ../src/args.c:131
+#, c-format
+msgid "Error on parsing the content of %s : \"%s\".\n"
+msgstr ""
+
+#: ../src/callback.c:213
+msgid "Notification test"
+msgstr ""
+
+#: ../src/callback.c:250 ../src/gui.c:248
+#, c-format
+msgid "%s%u hour"
+msgid_plural "%s%u hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/callback.c:256 ../src/gui.c:255
+#, c-format
+msgid "%s%u minute"
+msgid_plural "%s%u minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/callback.c:262 ../src/gui.c:261
+#, c-format
+msgid "%s%u second"
+msgid_plural "%s%u seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/callback.c:386
+msgid "Computer is going to shutdown now !"
+msgstr ""
+
+#: ../src/callback.c:396
+msgid "Computer is going to reboot now !"
+msgstr ""
+
+#: ../src/callback.c:406
+msgid "Current session will be terminated !"
+msgstr ""
+
+#: ../src/callback_main_window.c:71
+msgid ""
+"I'm here !\n"
+"\n"
+"Move over me to see the countdown."
+msgstr ""
+
+#: ../src/callback_main_window.c:86
+msgid "_Stop"
+msgstr ""
+
+#: ../src/callback_main_window.c:101
+msgid "Chosen time already exceeded"
+msgstr ""
+
+#: ../src/callback_main_window.c:136 ../src/gshutdown.glade:226
+msgid "_Start"
+msgstr ""
+
+#: ../src/callback_main_window.c:139 ../src/gui.c:575
+msgid "No action scheduled"
+msgstr ""
+
+#: ../src/callback_main_window.c:354
+msgid "Are you sure you want to quit ?"
+msgstr ""
+
+#: ../src/eggtrayicon.c:128
+msgid "Orientation"
+msgstr ""
+
+#: ../src/eggtrayicon.c:129
+msgid "The orientation of the tray."
+msgstr ""
+
+#: ../src/gui.c:283
+msgid "At date and time"
+msgstr ""
+
+#: ../src/gui.c:284
+msgid "After a delay"
+msgstr ""
+
+#: ../src/gui.c:285
+msgid "Now"
+msgstr ""
+
+#: ../src/gui.c:295 ../src/gshutdown.glade:410
+msgid "Turn off the computer"
+msgstr ""
+
+#: ../src/gui.c:296 ../src/gshutdown.glade:419
+msgid "Restart computer"
+msgstr ""
+
+#: ../src/gui.c:297 ../src/gshutdown.glade:428
+msgid "End current session"
+msgstr ""
+
+#: ../src/gui.c:301
+msgid "Extras"
+msgstr ""
+
+#: ../src/gui.c:305
+msgid "Custom command..."
+msgstr ""
+
+#: ../src/gui.c:382
+msgid "Not detected!"
+msgstr ""
+
+#: ../src/gui.c:474 ../src/gui.c:483
+msgid "Autodetect"
+msgstr ""
+
+#: ../src/gui.c:563 ../src/gui.c:603
+#, c-format
+msgid "%s doesn't exist.\n"
+msgstr ""
+
+#: ../src/gui.c:639
+msgid "Shutdown"
+msgstr ""
+
+#: ../src/gui.c:640
+msgid "Reboot"
+msgstr ""
+
+#: ../src/gui.c:641
+msgid "Logout"
+msgstr ""
+
+#: ../src/gui.c:689
+msgid "Immediate action"
+msgstr ""
+
+#: ../src/gui.c:692
+msgid "Cancel current action"
+msgstr ""
+
+#: ../src/gui.c:722
+msgid "Are you sure you want to shutdown your computer now ?"
+msgstr ""
+
+#: ../src/gui.c:724
+msgid "Are you sure you want to restart your computer now ?"
+msgstr ""
+
+#: ../src/gui.c:726
+msgid "Are you sure you want to logout from your session now ?"
+msgstr ""
+
+#: ../src/gui.c:751
+msgid ""
+"GShutdown was unable to detect your display manager. Currently, GShutdown "
+"only supports GDM and KDM.\n"
+"\n"
+"Go to the configuration menu and specify the correct method to do that."
+msgstr ""
+
+#: ../src/gui.c:756
+msgid ""
+"GShutdown was unable to detect your desktop. Currently, GShutdown only "
+"supports GNOME and KDE.\n"
+"\n"
+"Go to the configuration menu and specify the correct method to do that."
+msgstr ""
+
+#: ../src/main.c:176
+#, c-format
+msgid "The configuration cannot be loaded from %s."
+msgstr ""
+
+#: ../src/main.c:219
+#, c-format
+msgid "The configuration cannot be saved in %s."
+msgstr ""
+
+#: ../src/pconfirm.c:59
+msgid "Warning !"
+msgstr ""
+
+#: ../src/pconfirm.c:77
+msgid "Warning ! Your computer is going to shutdown now !"
+msgstr ""
+
+#: ../src/pconfirm.c:79
+msgid "Warning ! Your computer is going to restart now !"
+msgstr ""
+
+#: ../src/pconfirm.c:81
+msgid "Warning ! Your going to logout now !"
+msgstr ""
+
+#: ../src/timer.c:151
+#, c-format
+msgid "The computer will be shut down in :"
+msgstr ""
+
+#: ../src/timer.c:153
+#, c-format
+msgid "The computer will be restarted in :"
+msgstr ""
+
+#: ../src/timer.c:155
+#, c-format
+msgid "Time before logout :"
+msgstr ""
+
+#: ../src/timer.c:157
+#, c-format
+msgid "Time before action :"
+msgstr ""
+
+#: ../src/timer.c:165
+#, c-format
+msgid "%s %u minute"
+msgid_plural "%s %u minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/timer.c:171
+#, c-format
+msgid "%s and %u second"
+msgid_plural "%s and %u seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/timer.c:176
+#, c-format
+msgid "%s %u hour"
+msgid_plural "%s %u hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/timer.c:180
+#, c-format
+msgid "%s and %u minute"
+msgid_plural "%s and %u minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/timer.c:184
+#, c-format
+msgid "%s %u day"
+msgid_plural "%s %u days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/timer.c:188
+#, c-format
+msgid "%s and %u hour"
+msgid_plural "%s and %u hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/timer.c:202
+#, c-format
+msgid "%s %u second"
+msgid_plural "%s %u seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/gshutdown.glade:25
+msgid "_File"
+msgstr ""
+
+#: ../src/gshutdown.glade:46
+msgid "_Edit"
+msgstr ""
+
+#: ../src/gshutdown.glade:67
+msgid "_Help"
+msgstr ""
+
+#: ../src/gshutdown.glade:126
+msgid "Hour"
+msgstr ""
+
+#: ../src/gshutdown.glade:152
+msgid "Minute"
+msgstr ""
+
+#: ../src/gshutdown.glade:179
+msgid "_Actual time"
+msgstr ""
+
+#: ../src/gshutdown.glade:194
+msgid "Select a time"
+msgstr ""
+
+#: ../src/gshutdown.glade:248
+msgid "An advanced shutdown utility"
+msgstr ""
+
+#: ../src/gshutdown.glade:267
+msgid ""
+"Alejandro Zarate (Spanish)\n"
+"Alexander Sjögren (Swedish)\n"
+"Andrea Carnaroli (Italian)\n"
+"Andrew V. Sichevoi (Russian)\n"
+"Bill Heldorf Soerensen (Danish)\n"
+"Dóra Kováts (Hungarian)\n"
+"GShutdown Team (French)\n"
+"Kristopher (Polish)\n"
+"Miloš Popović (Serbian)\n"
+"Øyvind Pedersen (Norwegian)\n"
+"Rolando Emanuel Lopes Pereira (Portuguese)\n"
+"Rolf Loire (German)\n"
+"Siegfried Gevatter (Catalan)"
+msgstr ""
+
+#: ../src/gshutdown.glade:324
+msgid "Select a method :"
+msgstr ""
+
+#: ../src/gshutdown.glade:343
+msgid "Custom command"
+msgstr ""
+
+#: ../src/gshutdown.glade:386
+msgid "Specify the method manually"
+msgstr ""
+
+#: ../src/gshutdown.glade:398
+msgid "Autodetect the method (recommended)"
+msgstr ""
+
+#: ../src/gshutdown.glade:446
+msgid "Launch a command before the action"
+msgstr ""
+
+#: ../src/gshutdown.glade:488
+msgid "Actions"
+msgstr ""
+
+#: ../src/gshutdown.glade:520
+msgid "Always"
+msgstr ""
+
+#: ../src/gshutdown.glade:530
+msgid "If active"
+msgstr ""
+
+#: ../src/gshutdown.glade:540
+msgid "Never"
+msgstr ""
+
+#: ../src/gshutdown.glade:553
+msgid "Iconify when the action is started"
+msgstr ""
+
+#: ../src/gshutdown.glade:567
+msgid "Show system tray icon"
+msgstr ""
+
+#: ../src/gshutdown.glade:595
+msgid "Display warning message _before action"
+msgstr ""
+
+#: ../src/gshutdown.glade:604
+msgid "T_est"
+msgstr ""
+
+#: ../src/gshutdown.glade:614
+msgid "_Customize notifications time"
+msgstr ""
+
+#: ../src/gshutdown.glade:629
+msgid "Notifications"
+msgstr ""
+
+#: ../src/gshutdown.glade:652
+msgid "Misc"
+msgstr ""
+
+#: ../src/gshutdown.glade:675 ../src/gshutdown.glade:772
+#: ../src/gshutdown.glade:858 ../src/gshutdown.glade:944
+#: ../src/gshutdown.glade:1114
+msgid "gtk-close"
+msgstr ""
+
+#: ../src/gshutdown.glade:705
+msgid "Enter the command :"
+msgstr ""
+
+#: ../src/gshutdown.glade:805
+msgid "<b>Display manager :</b>"
+msgstr ""
+
+#: ../src/gshutdown.glade:817
+msgid "<b>Desktop :</b>"
+msgstr ""
+
+#: ../src/gshutdown.glade:872
+msgid "Select the method manually"
+msgstr ""
+
+#: ../src/gshutdown.glade:889
+msgid ""
+"Here, you can manually specify what is your desktop and display manager if "
+"GShutdown was unable to detect it itself."
+msgstr ""
+
+#: ../src/gshutdown.glade:897
+msgid "Desktop :"
+msgstr ""
+
+#: ../src/gshutdown.glade:916
+msgid "Display manager :"
+msgstr ""
+
+#: ../src/gshutdown.glade:983
+msgid "gtk-remove"
+msgstr ""
+
+#: ../src/gshutdown.glade:1027
+msgid "h"
+msgstr ""
+
+#: ../src/gshutdown.glade:1048
+msgid "min"
+msgstr ""
+
+#: ../src/gshutdown.glade:1069
+msgid "s"
+msgstr ""
+
+#: ../src/gshutdown.glade:1078
+msgid "gtk-add"
+msgstr ""
+
+#: ../src/gshutdown.glade:1094
+msgid "At time :"
+msgstr ""

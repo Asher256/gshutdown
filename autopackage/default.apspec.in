@@ -1,0 +1,61 @@
+# -*- shell-script -*-
+
+[Meta]
+PackageVersion: 1
+SoftwareVersion: @VERSION@
+Type: Application
+Maintainer: gshutdown@gmail.com
+Packager: contact@asher256.com
+InterfaceVersion: 10.3
+CPUArchitectures: x86
+AutopackageTarget: 1.0
+License: GNU General Public License, Version 2
+Language: en fr
+RootName: @gshutdown.tuxfamily.org/gshutdown:$SOFTWAREVERSION
+ShortName: gshutdown
+DisplayName: GShutdown
+Summary: GShutdown is an advanced Gtk+2 shutdown utility
+Summary[fr]: GShutdown est un utilitaire avancé pour programmer, entre autres, l'arrêt de votre ordinateur
+
+[Description]
+GShutdown is an advanced shutdown utility which allows 
+you to schedule the shutdown or the restart of your 
+computer. With it you can simply and quickly choose the
+turn off time.
+
+Features :
+
+   * Shutdown, reboot and logout : immediately or scheduled
+   * No need to be root
+   * Possibility to choose custom commands for the actions
+   * Three different ways to schedule the action
+   * Systray icon
+   * Visuals notifications
+
+[BuildPrepare]
+prepareBuild
+
+[BuildUnprepare]
+unprepareBuild
+
+[Globals]
+
+[Prepare]
+require @gtk.org/gtk 2.0
+require @glade.gnome.org/libglade 2.0
+
+[Imports]
+echo '*' | import
+
+[Install]
+# See http://www.autopackage.org/api/ for details
+installExe bin/*
+installMan 1 man/man1/*
+installData share/gshutdown
+installIcon share/pixmaps/gshutdown.*
+installLocale share/locale/
+# You probably need to change the category
+installDesktop "Applications" share/applications/gshutdown.desktop
+
+[Uninstall]
+uninstallFromLog

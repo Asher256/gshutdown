@@ -1,0 +1,579 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gshutdown\\n\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-06-24 15:50+0000\n"
+"PO-Revision-Date: 2007-06-10 23:37-0000\n"
+"Last-Translator: Asher256 <contact@asher256.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: ARGENTINA\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: ../src/args.c:48
+msgid "Launch the action after a certain delay : HH:MM"
+msgstr "Lanzar la acción después de un retraso: HH:MM"
+
+#: ../src/args.c:49
+msgid "Launch the action at : HH:MM YYYY/MM/DD"
+msgstr "Lanzar la acción a las: HH:MM YYYY/MM/DD"
+
+#: ../src/args.c:50
+msgid "Launch the action now."
+msgstr "Lanzar la acción ahora."
+
+#: ../src/args.c:51
+msgid "Available actions are : \"shutdown\", \"reboot\" or \"logout\""
+msgstr "Las acciones disponibles son : \"shutdown\", \"reboot\" or \"logout\""
+
+#: ../src/args.c:52
+msgid "Minimize the window at startup."
+msgstr "Minimizar la ventana al iniciar."
+
+#: ../src/args.c:64
+#, c-format
+msgid "Error when parsing the arguments...\n"
+msgstr "Error de sintáxis en los argumentos...\n"
+
+#: ../src/args.c:81
+#, c-format
+msgid ""
+"You cannot call --launch-after-delay, --launch-at or --launch-now at the "
+"same time.\n"
+msgstr ""
+"No puede llamar --launch-after-delay, --launch-at o --launch-now al mismo "
+"tiempo.\n"
+
+#: ../src/args.c:106
+#, c-format
+msgid ""
+"The authorized values in --action option are : shutdown, reboot or logout\n"
+msgstr ""
+"Los valores autorizados en la opción --action son: shutdown, reboot o "
+"logout\n"
+
+#: ../src/args.c:131
+#, c-format
+msgid "Error on parsing the content of %s : \"%s\".\n"
+msgstr "Error de sintaxis en el contenido de %s : \"%s\".\n"
+
+#: ../src/callback.c:213
+msgid "Notification test"
+msgstr "Prueba de notificación"
+
+#: ../src/callback.c:250 ../src/gui.c:248
+#, fuzzy, c-format
+msgid "%s%u hour"
+msgid_plural "%s%u hours"
+msgstr[0] "%s %u horas"
+msgstr[1] "%s %u horas"
+
+#: ../src/callback.c:256 ../src/gui.c:255
+#, fuzzy, c-format
+msgid "%s%u minute"
+msgid_plural "%s%u minutes"
+msgstr[0] "%s%u minuto%s"
+msgstr[1] "%s%u minuto%s"
+
+#: ../src/callback.c:262 ../src/gui.c:261
+#, fuzzy, c-format
+msgid "%s%u second"
+msgid_plural "%s%u seconds"
+msgstr[0] "%s%u segundo%s"
+msgstr[1] "%s%u segundo%s"
+
+#: ../src/callback.c:386
+msgid "Computer is going to shutdown now !"
+msgstr "¡La computadora va a apagarse ahora!"
+
+#: ../src/callback.c:396
+msgid "Computer is going to reboot now !"
+msgstr "¡La computadora va a reiniciarse ahora!"
+
+#: ../src/callback.c:406
+msgid "Current session will be terminated !"
+msgstr "¡La sesión actual será cerrada!"
+
+#: ../src/callback_main_window.c:71
+msgid ""
+"I'm here !\n"
+"\n"
+"Move over me to see the countdown."
+msgstr ""
+"¡Estoy aquí! n\n"
+"Mueva el cursor sobre mi para ver la cuenta atrás."
+
+#: ../src/callback_main_window.c:86
+msgid "_Stop"
+msgstr "_Parar"
+
+#: ../src/callback_main_window.c:101
+msgid "Chosen time already exceeded"
+msgstr "El tiempo seleccionado ya ha sido excedido"
+
+#: ../src/callback_main_window.c:136 ../src/gshutdown.glade:226
+msgid "_Start"
+msgstr "_Comenzar"
+
+#: ../src/callback_main_window.c:139 ../src/gui.c:575
+msgid "No action scheduled"
+msgstr "No hay acciones programadas."
+
+#: ../src/callback_main_window.c:354
+msgid "Are you sure you want to quit ?"
+msgstr "¿Está seguro de que quiere salir?"
+
+#: ../src/eggtrayicon.c:128
+msgid "Orientation"
+msgstr "Orientación"
+
+#: ../src/eggtrayicon.c:129
+msgid "The orientation of the tray."
+msgstr "La orientación de la bandeja."
+
+#: ../src/gui.c:283
+msgid "At date and time"
+msgstr "En un día y una fecha determinados"
+
+#: ../src/gui.c:284
+msgid "After a delay"
+msgstr "Después de un retraso"
+
+#: ../src/gui.c:285
+msgid "Now"
+msgstr "Ahora"
+
+#: ../src/gui.c:295 ../src/gshutdown.glade:410
+msgid "Turn off the computer"
+msgstr "Apagar la computadora"
+
+#: ../src/gui.c:296 ../src/gshutdown.glade:419
+msgid "Restart computer"
+msgstr "Reiniciar computadora"
+
+#: ../src/gui.c:297 ../src/gshutdown.glade:428
+msgid "End current session"
+msgstr "Finalizar sesión actual"
+
+#: ../src/gui.c:301
+msgid "Extras"
+msgstr "Extras"
+
+#: ../src/gui.c:305
+msgid "Custom command..."
+msgstr "Comando personalizado..."
+
+#: ../src/gui.c:382
+msgid "Not detected!"
+msgstr "¡No detectado!"
+
+#: ../src/gui.c:474 ../src/gui.c:483
+msgid "Autodetect"
+msgstr "Autodetectar"
+
+#: ../src/gui.c:563 ../src/gui.c:603
+#, c-format
+msgid "%s doesn't exist.\n"
+msgstr "%s no existe.\n"
+
+#: ../src/gui.c:639
+msgid "Shutdown"
+msgstr "Apagar"
+
+#: ../src/gui.c:640
+msgid "Reboot"
+msgstr "Reiniciar"
+
+#: ../src/gui.c:641
+msgid "Logout"
+msgstr "Cerrar sesión"
+
+#: ../src/gui.c:689
+msgid "Immediate action"
+msgstr "Acción inmediata"
+
+#: ../src/gui.c:692
+msgid "Cancel current action"
+msgstr "Cancelar acción actual"
+
+#: ../src/gui.c:722
+msgid "Are you sure you want to shutdown your computer now ?"
+msgstr "¿Está seguro de que quiere apagar la computadora ahora?"
+
+#: ../src/gui.c:724
+msgid "Are you sure you want to restart your computer now ?"
+msgstr "¿Está seguro de que quiere reiniciar la computadora ahora?"
+
+#: ../src/gui.c:726
+msgid "Are you sure you want to logout from your session now ?"
+msgstr "¿Está seguro de que quiere cerrar la sesión ahora?"
+
+#: ../src/gui.c:751
+msgid ""
+"GShutdown was unable to detect your display manager. Currently, GShutdown "
+"only supports GDM and KDM.\n"
+"\n"
+"Go to the configuration menu and specify the correct method to do that."
+msgstr ""
+"GShutdown no pudo detectar su manejador de pantallas. Por el momento, "
+"Gshutdown sólo soporta GDM y KDM.\n"
+"\n"
+"Vaya al menú de configuración y especifique el método correcto para hacer "
+"eso."
+
+#: ../src/gui.c:756
+msgid ""
+"GShutdown was unable to detect your desktop. Currently, GShutdown only "
+"supports GNOME and KDE.\n"
+"\n"
+"Go to the configuration menu and specify the correct method to do that."
+msgstr ""
+"GShutdown no pudo detectar su entorno de escritorio. Por el momento, "
+"Gshutdown sólo soporta GNOME y KDE.\n"
+"\n"
+"Vaya al menú de configuración y especifique el método correcto para hacer "
+"eso."
+
+#: ../src/main.c:176
+#, c-format
+msgid "The configuration cannot be loaded from %s."
+msgstr "La configuración no puede ser cargada dede %s."
+
+#: ../src/main.c:219
+#, c-format
+msgid "The configuration cannot be saved in %s."
+msgstr "La configuración no puede ser guardada en %s."
+
+#: ../src/pconfirm.c:59
+msgid "Warning !"
+msgstr "¡Advertencia!"
+
+#: ../src/pconfirm.c:77
+msgid "Warning ! Your computer is going to shutdown now !"
+msgstr "Advertencia: ¡Su computadora va a apagarse ahora!"
+
+#: ../src/pconfirm.c:79
+msgid "Warning ! Your computer is going to restart now !"
+msgstr "Advertencia: ¡Su computadora va a reiniciarse ahora!"
+
+#: ../src/pconfirm.c:81
+msgid "Warning ! Your going to logout now !"
+msgstr "Advertencia: ¡Va a cerrar su sesión ahora!"
+
+#: ../src/timer.c:151
+#, c-format
+msgid "The computer will be shut down in :"
+msgstr "La computadora se apagará en:"
+
+#: ../src/timer.c:153
+#, c-format
+msgid "The computer will be restarted in :"
+msgstr "La computadora se reiniciará en:"
+
+#: ../src/timer.c:155
+#, c-format
+msgid "Time before logout :"
+msgstr "Tiempo antes de cerrar la sesión:"
+
+#: ../src/timer.c:157
+#, c-format
+msgid "Time before action :"
+msgstr "Tiempo hasta la acción:"
+
+#: ../src/timer.c:165
+#, fuzzy, c-format
+msgid "%s %u minute"
+msgid_plural "%s %u minutes"
+msgstr[0] "%s %u minutos"
+msgstr[1] "%s %u minutos"
+
+#: ../src/timer.c:171
+#, fuzzy, c-format
+msgid "%s and %u second"
+msgid_plural "%s and %u seconds"
+msgstr[0] "%s y %u segundos"
+msgstr[1] "%s y %u segundos"
+
+#: ../src/timer.c:176
+#, fuzzy, c-format
+msgid "%s %u hour"
+msgid_plural "%s %u hours"
+msgstr[0] "%s %u horas"
+msgstr[1] "%s %u horas"
+
+#: ../src/timer.c:180
+#, fuzzy, c-format
+msgid "%s and %u minute"
+msgid_plural "%s and %u minutes"
+msgstr[0] "%s y %u minutos"
+msgstr[1] "%s y %u minutos"
+
+#: ../src/timer.c:184
+#, fuzzy, c-format
+msgid "%s %u day"
+msgid_plural "%s %u days"
+msgstr[0] "%s %u día"
+msgstr[1] "%s %u día"
+
+#: ../src/timer.c:188
+#, fuzzy, c-format
+msgid "%s and %u hour"
+msgid_plural "%s and %u hours"
+msgstr[0] "%s y %u horas"
+msgstr[1] "%s y %u horas"
+
+#: ../src/timer.c:202
+#, fuzzy, c-format
+msgid "%s %u second"
+msgid_plural "%s %u seconds"
+msgstr[0] "%s%u segundo%s"
+msgstr[1] "%s%u segundo%s"
+
+#: ../src/gshutdown.glade:25
+msgid "_File"
+msgstr "_Archivo"
+
+#: ../src/gshutdown.glade:46
+msgid "_Edit"
+msgstr "_Edición"
+
+#: ../src/gshutdown.glade:67
+msgid "_Help"
+msgstr "Ay_uda"
+
+#: ../src/gshutdown.glade:126
+msgid "Hour"
+msgstr "Hora"
+
+#: ../src/gshutdown.glade:152
+msgid "Minute"
+msgstr "Minuto"
+
+#: ../src/gshutdown.glade:179
+msgid "_Actual time"
+msgstr "_Hora actual"
+
+#: ../src/gshutdown.glade:194
+msgid "Select a time"
+msgstr "Seleccionar una hora"
+
+#: ../src/gshutdown.glade:248
+msgid "An advanced shutdown utility"
+msgstr "Una utilidad de apagado avanzada"
+
+#: ../src/gshutdown.glade:267
+#, fuzzy
+msgid ""
+"Alejandro Zarate (Spanish)\n"
+"Alexander Sjögren (Swedish)\n"
+"Andrea Carnaroli (Italian)\n"
+"Andrew V. Sichevoi (Russian)\n"
+"Bill Heldorf Soerensen (Danish)\n"
+"Dóra Kováts (Hungarian)\n"
+"GShutdown Team (French)\n"
+"Kristopher (Polish)\n"
+"Miloš Popović (Serbian)\n"
+"Øyvind Pedersen (Norwegian)\n"
+"Rolando Emanuel Lopes Pereira (Portuguese)\n"
+"Rolf Loire (German)\n"
+"Siegfried Gevatter (Catalan)"
+msgstr ""
+"Alejandro Zarate (Español)\n"
+"Alexander Sjögren (Sueco)\n"
+"Andrea Carnaroli (Italiano)\n"
+"Andrew V. Sichevoi (Ruso)\n"
+"Bill Heldorf Soerensen (Danés)\n"
+"Dóra Kováts (Húngaro)\n"
+"GShutdown Team (Francés)\n"
+"Øyvind Pedersen (Noruego)\n"
+"Rolando Emanuel Lopes Pereira (Portugués)\n"
+"Rolf Loire (Alemán)\n"
+"Siegfried Gevatter (Catalán)"
+
+#: ../src/gshutdown.glade:324
+msgid "Select a method :"
+msgstr "Seleccionar método:"
+
+#: ../src/gshutdown.glade:343
+msgid "Custom command"
+msgstr "Comando personalizado"
+
+#: ../src/gshutdown.glade:386
+msgid "Specify the method manually"
+msgstr "Especificar el método manualmente"
+
+#: ../src/gshutdown.glade:398
+msgid "Autodetect the method (recommended)"
+msgstr "Autodetectar el método (recomendado)"
+
+#: ../src/gshutdown.glade:446
+msgid "Launch a command before the action"
+msgstr "Lanzar un comando antes de la acción"
+
+#: ../src/gshutdown.glade:488
+msgid "Actions"
+msgstr "Acciones"
+
+#: ../src/gshutdown.glade:520
+msgid "Always"
+msgstr "Siempre"
+
+#: ../src/gshutdown.glade:530
+msgid "If active"
+msgstr "Si está activo"
+
+#: ../src/gshutdown.glade:540
+msgid "Never"
+msgstr "Nunca"
+
+#: ../src/gshutdown.glade:553
+msgid "Iconify when the action is started"
+msgstr "Mostrar icono cuando la acción comience"
+
+#: ../src/gshutdown.glade:567
+msgid "Show system tray icon"
+msgstr "Mostrar icono en la bandeja de sistema"
+
+#: ../src/gshutdown.glade:595
+msgid "Display warning message _before action"
+msgstr "_Mostrar mensaje de advertencia antes de la acción"
+
+#: ../src/gshutdown.glade:604
+msgid "T_est"
+msgstr "_Probar"
+
+#: ../src/gshutdown.glade:614
+msgid "_Customize notifications time"
+msgstr "Personalizar la hora de la _notificación"
+
+#: ../src/gshutdown.glade:629
+msgid "Notifications"
+msgstr "Notificaciones"
+
+#: ../src/gshutdown.glade:652
+msgid "Misc"
+msgstr "Misc"
+
+#: ../src/gshutdown.glade:675 ../src/gshutdown.glade:772
+#: ../src/gshutdown.glade:858 ../src/gshutdown.glade:944
+#: ../src/gshutdown.glade:1114
+msgid "gtk-close"
+msgstr "gtk-close"
+
+#: ../src/gshutdown.glade:705
+msgid "Enter the command :"
+msgstr "Ingrese el comando:"
+
+#: ../src/gshutdown.glade:805
+msgid "<b>Display manager :</b>"
+msgstr "<b>Manejador de pantalla: </b>"
+
+#: ../src/gshutdown.glade:817
+msgid "<b>Desktop :</b>"
+msgstr "<b>Escritorio:</b>"
+
+#: ../src/gshutdown.glade:872
+msgid "Select the method manually"
+msgstr "Seleccionar el método manualmente"
+
+#: ../src/gshutdown.glade:889
+msgid ""
+"Here, you can manually specify what is your desktop and display manager if "
+"GShutdown was unable to detect it itself."
+msgstr ""
+"Aquí pude especificar manualmente cuales son su escritorio y su manejador de "
+"panatalla si GShutdown no fue capaz de detectarlos por si mismo."
+
+#: ../src/gshutdown.glade:897
+msgid "Desktop :"
+msgstr "Escritorio:"
+
+#: ../src/gshutdown.glade:916
+msgid "Display manager :"
+msgstr "Manejador de pantalla:"
+
+#: ../src/gshutdown.glade:983
+msgid "gtk-remove"
+msgstr "gtk-remove"
+
+#: ../src/gshutdown.glade:1027
+msgid "h"
+msgstr "h"
+
+#: ../src/gshutdown.glade:1048
+msgid "min"
+msgstr "min"
+
+#: ../src/gshutdown.glade:1069
+msgid "s"
+msgstr "s"
+
+#: ../src/gshutdown.glade:1078
+msgid "gtk-add"
+msgstr "gtk-add"
+
+#: ../src/gshutdown.glade:1094
+msgid "At time :"
+msgstr "A la hora:"
+
+#, fuzzy
+#~ msgid "%s%u hours"
+#~ msgstr "%s %u horas"
+
+#, fuzzy
+#~ msgid "%s%u minutes"
+#~ msgstr "%s%u minuto%s"
+
+#, fuzzy
+#~ msgid "%s%u seconds"
+#~ msgstr "%s%u segundo%s"
+
+#~ msgid "%s 1 minute"
+#~ msgstr "%s 1 minuto"
+
+#~ msgid "%s and 1 second"
+#~ msgstr "%s y 1 segundo"
+
+#~ msgid "%s 1 hour"
+#~ msgstr "%s 1 hora"
+
+#~ msgid "%s and 1 minute"
+#~ msgstr "%s u 1 minuto"
+
+#~ msgid "%s %u days"
+#~ msgstr "%s %u días"
+
+#~ msgid "%s and 1 hour"
+#~ msgstr "%s y 1 hora"
+
+#, fuzzy
+#~ msgid "%s : %u second"
+#~ msgstr "%s: %u segundos"
+
+#~ msgid "%s : %u seconds"
+#~ msgstr "%s: %u segundos"
+
+#, fuzzy
+#~ msgid "%s%u hourz"
+#~ msgid_plural "%s%u hourzs"
+#~ msgstr[0] "%s %u horas"
+#~ msgstr[1] "%s %u horas"
+
+#~ msgid "%s%u minute%s"
+#~ msgstr "%s%u minuto%s"
+
+#~ msgid "%s%u second%s"
+#~ msgstr "%s%u segundo%s"
+
+#~ msgid "Not implemented yet!"
+#~ msgstr "¡Aún no implementado!"
+
+#~ msgid "Time from now"
+#~ msgstr "Tiempo desde ahora"
+
+#, fuzzy
+#~ msgid "Launch the action after a"
+#~ msgstr "Lanzar la acción ahora."
