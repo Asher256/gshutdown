@@ -5,5 +5,4 @@ Makefile
 src/gshutdown
 CMakeCache.txt
 CMakeFiles/
-GettextTranslate.cmake
 cmake_install.cmake

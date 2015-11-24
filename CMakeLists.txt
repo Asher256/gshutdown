@@ -2,7 +2,17 @@
 cmake_minimum_required(VERSION 2.8)
 
 project("gshutdown")
-list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
+#list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
+
+# ---------- Gettext
+find_package(Gettext)
+if (GETTEXT_FOUND)
+   set(GettextTranslate_ALL true)
+   set(GettextTranslate_GMO_BINARY true)
+   include(GettextTranslate.cmake) 
+   set(ENABLE_NLS 1)
+   add_subdirectory(lang)
+endif (GETTEXT_FOUND)
 
 # ---------- SOURCE FILES
 set(source src/action.c src/args.c src/bacon.c src/binreloc.c src/callback.c src/callback_main_window.c src/debug.c src/detectwm.c src/eggtrayicon.c src/gdm.c src/gui.c src/main.c src/misc.c src/pconfirm.c src/timer.c src/values.c)
@@ -11,23 +21,6 @@ find_package(PkgConfig REQUIRED)
 # ---------- GTK
 pkg_check_modules(GTK2 REQUIRED gtk+-2.0)
 pkg_check_modules(GLADE REQUIRED libglade-2.0)
-
-# ---------- GETTEXT
-find_package(GettextTools REQUIRED)
-set(stockDir "${CMAKE_CURRENT_SOURCE_DIR}/lang")
-set(langDir  "${CMAKE_CURRENT_BINARY_DIR}/lang")
-set(outDir   "${CMAKE_CURRENT_BINARY_DIR}/locale")
-
-gettext_make_target("lang"
-  HIERARCHY "{1}/{2}/{3}/{4}.mo"
-  KEYWORDS  "_"
-  DOMAIN    "gettexttools-dom"
-  STOCK_DIR ${stockDir}
-  LANG_DIR  ${langDir}
-  OUT_DIR   ${outDir}
-  SOURCE    ${source})
-  
-list(APPEND makeCleanFiles ${outDir})
 
 # Setup CMake to use GTK+, tell the compiler where to look for headers
 # and to the linker where to look for libraries
@@ -47,8 +40,4 @@ list(APPEND makeCleanFiles ${outDir})
 add_executable(gshutdown ${source})
 TARGET_LINK_LIBRARIES(gshutdown ${GTK2_LIBRARIES} ${GLADE_LIBRARIES})
 install(TARGETS gshutdown DESTINATION bin)
-
-# ---------- CLEANUP
-
-set_directory_properties(PROPERTIES ADDITIONAL_MAKE_CLEAN_FILES "locale")
 
