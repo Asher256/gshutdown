@@ -13,8 +13,8 @@ Features:
    * Visuals notifications
 
 Compilation:
-	apt-get install libgtk2.0-dev libglib2.0-dev libnotify-dev	
-	./configure && make
+	apt-get install cmake libgtk2.0-dev libglib2.0-dev libnotify-dev	
+	cmake . && make
 	sudo make install
 
 License:
