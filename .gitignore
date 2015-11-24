@@ -1,3 +1,5 @@
+gshutdown
+install_manifest.txt
 Makefile
 *.o
 src/gshutdown
