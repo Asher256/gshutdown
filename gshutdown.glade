@@ -244,7 +244,7 @@
     <property name="title">About</property>
     <property name="resizable">False</property>
     <property name="window_position">GTK_WIN_POS_MOUSE</property>
-    <property name="copyright">Copyright (c) GShutdown Team, 2006-2007</property>
+    <property name="copyright">Copyright (c) GShutdown Team</property>
     <property name="comments" translatable="yes">An advanced shutdown utility</property>
     <property name="website">http://gshutdown.tuxfamily.org</property>
     <property name="license">GShutdown is free software; you can redistribute it and/or modify 

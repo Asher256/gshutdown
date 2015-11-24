@@ -1,7 +1,7 @@
 /*
  * This file is part of gshutdown.
  *
- * Copyright (c) 2006-2007, GShutdown Team <gshutdown@gmail.com>
+ * Copyright (c) GShutdown Team <gshutdown@gmail.com>
  * 
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -309,7 +309,7 @@ gboolean gui_connect_all()
 
     /* Dialog */
     about_dialog = glade_xml_get_widget(glade_xml, "about_dialog");
-    gtk_about_dialog_set_name(GTK_ABOUT_DIALOG(about_dialog), "GShutdown " VERSION);
+    gtk_about_dialog_set_name(GTK_ABOUT_DIALOG(about_dialog), "GShutdown");
 
     /* Configuration dialog */
     config_dialog = glade_xml_get_widget(glade_xml, "config_dialog");

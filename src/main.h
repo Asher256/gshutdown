@@ -1,7 +1,7 @@
 /*
  * This file is part of gshutdown.
  *
- * Copyright (c) 2006-2007, GShutdown Team <gshutdown@gmail.com>
+ * Copyright (c) GShutdown Team <gshutdown@gmail.com>
  * 
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -33,8 +33,14 @@
     #define _(string) dgettext(GETTEXT_PACKAGE, string)
     #define N_(string1, string2, n) dngettext(GETTEXT_PACKAGE, string1, string2, n)
 #else
-    #define _(string) (string)
-    #define N_(string1, string2, n) internal_ngettext(string1, string2, n)
+    #include <libintl.h>
+    #ifdef _
+        #undef _
+    #endif
+    #define _(string) dgettext("gettexttools-dom", string)
+    #define N_(string1, string2, n) dngettext("gettexttools-dom", string1, string2, n)
+    //#define _(string) (string)
+    //#define N_(string1, string2, n) internal_ngettext(string1, string2, n)
 #endif
 
 void called_at_exit();

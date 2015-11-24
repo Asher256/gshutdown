@@ -1,7 +1,7 @@
 /*
  * This file is part of gshutdown.
  *
- * Copyright (c) 2006-2007, GShutdown Team <gshutdown@gmail.com>
+ * Copyright (c) GShutdown Team <gshutdown@gmail.com>
  * 
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -21,7 +21,6 @@
 #include <unistd.h> /* X_OK */
 #include <stdlib.h>
 #include <glib.h> 
-#include "config.h"
 #include "misc.h"
 #include "main.h"
 #include "binreloc.h"

@@ -1,3 +1,4 @@
+Makefile
 *.o
 src/gshutdown
 CMakeCache.txt
