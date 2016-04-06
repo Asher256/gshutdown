@@ -4,12 +4,12 @@
 * Github:  https://github.com/Asher256/
 * Authors: See AUTHORS file.
 
-Description:
+# Description:
    
    GShutdown is an advanced shutdown utility which allows you to schedule 
    the shutdown, the restart of your computer of the logout.
 
-Features:
+# Features:
 
    * Shutdown, reboot and logout: immediately or scheduled
    * No need to be root
@@ -18,12 +18,12 @@ Features:
    * Systray icon
    * Visuals notifications
 
-Compilation:
+# Compilation:
 	apt-get install libgtk2.0-dev libglib2.0-dev libnotify-dev	
 	./configure && make
 	sudo make install
 
-License:
+# License:
 
    This program is free software; you can redistribute it and/or modify
    it under the terms of the GNU General Public License as published by
@@ -37,7 +37,7 @@ License:
 
    (read COPYING file)
 
-Requirements, to compile the source code:
+# Requirements, to compile the source code:
 
    Gtk+ 2.0   http://www.gtk.org
    libnotify  http://www.galago-project.org/files/releases/source
@@ -53,7 +53,7 @@ Requirements, to compile the source code:
    can compile the source code without it:
        $ ./configure --enable-libnotify=no
 
-Tips:
+# Tips:
 
    Middle click on the systray icon opens the immediate action menu.
 
