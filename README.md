@@ -1,7 +1,8 @@
 
-Contact: gshutdown@gmail.com
-Website: http://gshutdown.tuxfamily.org
-Github:  https://github.com/Asher256/
+* Contact: gshutdown@gmail.com
+* Website: http://gshutdown.tuxfamily.org
+* Github:  https://github.com/Asher256/
+* Authors: See AUTHORS file.
 
 Description:
    
@@ -56,6 +57,3 @@ Tips:
 
    Middle click on the systray icon opens the immediate action menu.
 
-Authors:
-
-    See AUTHORS file.
