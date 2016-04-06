@@ -4,7 +4,7 @@ Release: 1
 License: GPL
 Group: Applications/System
 URL: http://gshutdown.tuxfamily.org
-Packager: Asher256 <contact@asher256.com>
+Packager: Asher256 <asher256@gmail.com>
 Summary: An advanced shutdown utility
 Summary(fr): Utilitaire pour gérer l'arrêt de votre ordinateur d'une manière avancée
 BuildRoot: %{_tmppath}/%{name}-%{version}-buildroot
@@ -69,5 +69,5 @@ rpm -fr $RPM_BUILD_ROOT
 %{_datadir}/man/*
 
 %changelog
-* Thu Aug 24 2006 Asher256 <contact@asher256.com>
+* Thu Aug 24 2006 Asher256 <asher256@gmail.com>
 - Initial *.spec release.

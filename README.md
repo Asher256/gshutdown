@@ -1,3 +1,8 @@
+
+Contact: gshutdown@gmail.com
+Website: http://gshutdown.tuxfamily.org
+Github:  https://github.com/Asher256/
+
 Description:
    
    GShutdown is an advanced shutdown utility which allows you to schedule 
@@ -54,11 +59,3 @@ Tips:
 Authors:
 
     See AUTHORS file.
-
-Contact: 
-
-   gshutdown@gmail.com
-
-Website:
-
-   http://gshutdown.tuxfamily.org
