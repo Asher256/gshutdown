@@ -11,7 +11,7 @@ Description:    An advanced shutdown utility
 Keywords:       shutdown, halt, poweroff, reboot, restart, logout, lock, screen, gnome, xfce, kde, schedule
 Author:         gshutdown@gmail.com (GShutdown Team)
 Maintained-by:  gshutdown@gmail.com (GShutdown Team)
-Home-page:      http://gshutdown.tuxfamily.org
+Home-page:      http://github.com/Asher256/gshutdown
 Platforms:      Linux
 Copying-policy: GPL
 End

@@ -11,7 +11,7 @@ CPUArchitectures: x86
 AutopackageTarget: 1.0
 License: GNU General Public License, Version 2
 Language: en fr
-RootName: @gshutdown.tuxfamily.org/gshutdown:$SOFTWAREVERSION
+RootName: @github.com/Asher256/gshutdown/gshutdown:$SOFTWAREVERSION
 ShortName: gshutdown
 DisplayName: GShutdown
 Summary: GShutdown is an advanced Gtk+2 shutdown utility

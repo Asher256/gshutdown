@@ -3,7 +3,7 @@ Version: @VERSION@
 Release: 1
 License: GPL
 Group: Applications/System
-URL: http://gshutdown.tuxfamily.org
+URL: http://github.com/Asher256/gshutdown
 Packager: Asher256 <asher256@gmail.com>
 Summary: An advanced shutdown utility
 Summary(fr): Utilitaire pour gérer l'arrêt de votre ordinateur d'une manière avancée

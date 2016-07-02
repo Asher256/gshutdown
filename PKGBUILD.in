@@ -18,7 +18,7 @@ Features :
 * Visuals notifications
 "
 
-url="http://gshutdown.tuxfamily.org"
+url="http://github.com/Asher256/gshutdown"
 source="$pkgname-$pkgver.tar.gz"
 
 makedepends=('gcc' 'make' 'gtk2' 'libnotify' 'libglade')
