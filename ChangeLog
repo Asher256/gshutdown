@@ -175,7 +175,7 @@
 	* x11proto-core-dev added in the dependencies
 	* New dependencies in gshutdown.spec.in, for Fedora Core : 
 	  gtk+-devel libglade2-devel libnotify-dev 
-	  (proposed by Sebastien Bilbeau)
+	  (proposed by Tux-planet)
 	* New dependencies in debian/control : x11proto-core-dev, 
 	  libxau-dev
 	* Bug fixed : When "if active" is selected, the systray
