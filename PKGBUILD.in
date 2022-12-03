@@ -1,4 +1,4 @@
-# Maintainer: Asher256 <asher256@gmail.com>
+# Maintainer: Asher256 <Asher256@users.noreply.github.com>
 pkgname=@PACKAGE@
 pkgver=@VERSION@
 pkgrel=1

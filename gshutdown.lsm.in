@@ -9,8 +9,8 @@ Description:    An advanced shutdown utility
                 and quickly choose the turn off 
                 time.
 Keywords:       shutdown, halt, poweroff, reboot, restart, logout, lock, screen, gnome, xfce, kde, schedule
-Author:         gshutdown@gmail.com (GShutdown Team)
-Maintained-by:  gshutdown@gmail.com (GShutdown Team)
+Author:         https://github.com/Asher256/gshutdown/issues (GShutdown Team)
+Maintained-by:  https://github.com/Asher256/gshutdown/issues (GShutdown Team)
 Home-page:      http://github.com/Asher256/gshutdown
 Platforms:      Linux
 Copying-policy: GPL

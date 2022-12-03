@@ -1,30 +1,29 @@
-Main programmers :
-
-    GShutdown Team <gshutdown@gmail.com> including :
-
+Main programmers:
+    GShutdown Team <https://github.com/Asher256/gshutdown/issues> including :
         Asher256
         Maxime Cheramy
 
 Translations :
 
-	Ryan <daf3707@gmail.com> (Chinese)
-    Andrea Carnaroli <vongola15@libero.it> (Italian)
-    Andrew V. Sichevoi <a.sichevoi+lltr@gmail.com> (Russian)
-    Dóra Kováts <dorcssa@gmail.com> (Hungarian)
-    Rolando Emanuel Lopes Pereira <finalyugi@sapo.pt> (Portuguese)
-    Siegfried Gevatter <siggi.gevatter@gmail.com> (Catalan)
     Alejandro Zarate (Spanish)
     Alexander Sjögren (Swedish)
+    Andrea Carnaroli <vongola15@libero.it> (Italian)
+    Andrew V. Sichevoi <a.sichevoi+lltr@gmail.com> (Russian)
     Bill Heldorf Soerensen (Danish)
+    Dóra Kováts <dorcssa@gmail.com> (Hungarian)
     GShutdown Team (French)
-	Kristopher <kas1987@o2.pl> (Polish)
-	Miloš Popović (Serbian)
-    Øyvind Pedersen (Norwegian)
+    Kristopher <kas1987@o2.pl> (Polish)
+    Miloš Popović (Serbian)
+    Rolando Emanuel Lopes Pereira <finalyugi@sapo.pt> (Portuguese)
     Rolf Loire (German)
+    Ryan <daf3707@gmail.com> (Chinese)
+    Siegfried Gevatter <siggi.gevatter@gmail.com> (Catalan)
+    Zmicer Turok <zmicerturok@gmail.com> (Belarusian)
+    Øyvind Pedersen (Norwegian)
 
 Indirect contributions :
 
-	GTK+2, Glade and GNU/Linux developers ;-)
+    GTK+2, Glade and GNU/Linux developers ;-)
 
     GDM Logout Action protocol implementation by 
         Raffaele Sandrini, George Lebl and Mark McLoughlin.

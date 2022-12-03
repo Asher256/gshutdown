@@ -1,7 +1,7 @@
 /*
  * This file is part of gshutdown.
  *
- * Copyright (c) GShutdown Team <gshutdown@gmail.com>
+ * Copyright (c) GShutdown Team <https://github.com/Asher256/gshutdown/issues>
  * 
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by

@@ -4,8 +4,8 @@
 PackageVersion: 1
 SoftwareVersion: @VERSION@
 Type: Application
-Maintainer: gshutdown@gmail.com
-Packager: asher256@gmail.com
+Maintainer: https://github.com/Asher256/gshutdown/issues
+Packager: Asher256
 InterfaceVersion: 10.3
 CPUArchitectures: x86
 AutopackageTarget: 1.0
