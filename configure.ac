@@ -55,7 +55,7 @@ AC_SUBST(PACKAGE_CFLAGS)
 AC_SUBST(PACKAGE_LIBS)
 
 # Gettext
-ALL_LINGUAS="fr es ca sv pt de da hu ru it no sr sr@Latn pl zh"
+ALL_LINGUAS="fr es ca sv pt de da hu ru it no sr sr@Latn pl zh bg"
 GETTEXT_PACKAGE=gshutdown
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE", [Gettext package])

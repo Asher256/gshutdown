@@ -1,7 +1,4 @@
-
-* Contact: gshutdown@gmail.com
 * Website: http://github.com/Asher256/gshutdown
-* Github:  https://github.com/Asher256/
 * Authors: See AUTHORS file.
 
 ## Description:
