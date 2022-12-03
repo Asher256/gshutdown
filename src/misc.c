@@ -21,6 +21,7 @@
 #include <unistd.h> /* X_OK */
 #include <stdlib.h>
 #include <glib.h> 
+#include <glib/gstdio.h>
 #include "config.h"
 #include "misc.h"
 #include "main.h"
@@ -30,6 +31,7 @@
  * Run a shell command, with arguments.
  * Return TRUE on error.
  */
+#include <stdio.h>
 #include <stdlib.h>    /* exit() */
 #include <unistd.h>    /* fork() */
 #include <sys/types.h> /* Used by fork() and stat() */
